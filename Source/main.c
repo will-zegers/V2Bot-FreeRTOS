@@ -78,7 +78,10 @@ int main( void )
 	priority bits. */
 	NVIC_SetPriorityGrouping( 0UL );
 
+	/* Start our task to get input via UART3. */
 	vUARTStart();
+
+	/* Start the PWM controller. */
 	vPWMControllerStart();
 
 	/* Start the FreeRTOS scheduler. */
