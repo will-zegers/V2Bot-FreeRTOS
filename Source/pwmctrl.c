@@ -9,7 +9,7 @@
 
 #include "pwmctrl.h"
 
-#define pwmctrlDEBUG	0
+#define pwmctrlDEBUG	1
 
 /* Dimensions the buffer into which input characters are placed. */
 #define pwmctrlMAX_INPUT_SIZE		50
@@ -29,11 +29,12 @@ static xTaskHandle xUARTReceiverTask = NULL, xPWMControllerTask = NULL;
 
 static Peripheral_Descriptor_t xUART3 = NULL;
 
-xQueueHandle qh = 0;
+xQueueHandle xParameterQueue = 0, xCommandQueue = 0;
 
 void vUARTStart( void ) {
 
-	qh = xQueueCreate(1, 4 * sizeof( int16_t ) );
+	xCommandQueue = xQueueCreate(4, sizeof( int8_t ) );
+	xParameterQueue = xQueueCreate(1, 4 * sizeof( int16_t ) );
 
 	xTaskCreate ( prvUARTReceiver,
 				( const int8_t * const ) "UARTRx",
@@ -92,12 +93,11 @@ void prvUARTReceiver( void * prvParameters ) {
 }
 
 void prvParseCommand( const int8_t * pcUartInput ) {
-	int8_t pcParameter[20];
+	int8_t pcParameter[5];
 	int8_t cCommand, cParameterIndex = 0, cPulseIndex = 0;
-	uint16_t usPulse[4];
+	int16_t sPulse[4];
 
 	cCommand = *pcUartInput;
-	( void ) cCommand;
 
 	pcUartInput++;
 
@@ -106,7 +106,7 @@ void prvParseCommand( const int8_t * pcUartInput ) {
 	}
 
 	while( '\0' != *pcUartInput ) {
-		memset( pcParameter, '\0', 20);
+		memset( pcParameter, '\0', 5);
 		while( ( pwmctrlDELIM != *pcUartInput ) && ( '\0' != *pcUartInput ) ) {
 			pcParameter[cParameterIndex] = *pcUartInput;
 			cParameterIndex++;
@@ -120,12 +120,13 @@ void prvParseCommand( const int8_t * pcUartInput ) {
 			FreeRTOS_write( xUART3, "\r\n", strlen( "\r\n" ) );
 		}
 #endif
-		usPulse[cPulseIndex] = atoi( (const char * ) pcParameter );
+		sPulse[cPulseIndex] = atoi( (const char * ) pcParameter );
 		cParameterIndex = 0;
 		pcUartInput++;
 		cPulseIndex++;
 	}
-	xQueueSend( qh, usPulse, portMAX_DELAY );
+	xQueueSend( xParameterQueue, sPulse, portMAX_DELAY );
+	xQueueSend( xCommandQueue, &cCommand, portMAX_DELAY );
 }
 
 void vPWMControllerStart( void ) {
@@ -140,7 +141,8 @@ void vPWMControllerStart( void ) {
 
 void prvPWMController( void *prvParameters ) {
 
-	uint16_t usPulse[4];
+	uint8_t cCommand, cServoPosition[5];
+	int16_t sParameters[4];
 
 	( void ) prvParameters;
 
@@ -172,12 +174,51 @@ void prvPWMController( void *prvParameters ) {
 	LPC_PWM1->TCR = (1 << 0) | (1 << 3);
 
 	for(;;) {
-		xQueueReceive( qh, usPulse, portMAX_DELAY );
+		xQueueReceive( xCommandQueue, &cCommand, portMAX_DELAY );
 
-		LPC_PWM1->MR1 = usPulse[0];
-		LPC_PWM1->MR2 = usPulse[1];
-		LPC_PWM1->MR3 = usPulse[2];
-		LPC_PWM1->MR4 = usPulse[3];
+		xQueueReceive( xParameterQueue, sParameters, portMAX_DELAY );
+
+#if pwmctrlDEBUG
+			uint8_t buffer[8], i = 0;
+
+			while(i < 4) {
+				itoa( sParameters[i], buffer, 10);
+				if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
+					FreeRTOS_write( xUART3, buffer, strlen( buffer ) );
+				}
+				if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
+					FreeRTOS_write( xUART3, "\r\n", strlen( "\r\n" ) );
+				}
+				i++;
+			}
+#endif
+		if ( 'a' == cCommand ) {
+			LPC_PWM1->MR1 = sParameters[0];
+			LPC_PWM1->MR2 = sParameters[1];
+			LPC_PWM1->MR3 = sParameters[2];
+			LPC_PWM1->MR4 = sParameters[3];
+		} else if ('r' == cCommand ) {
+			LPC_PWM1->MR1 += sParameters[0];
+			LPC_PWM1->MR2 += sParameters[1];
+			LPC_PWM1->MR3 += sParameters[2];
+			LPC_PWM1->MR4 += sParameters[3];
+		} else if ('p' == cCommand ) {
+			switch(sParameters[0]) {
+			case 1:	itoa( LPC_PWM1->MR1, cServoPosition, 16);
+					break;
+			case 2:	itoa( LPC_PWM1->MR2, cServoPosition, 16);
+					break;
+			case 3:	itoa( LPC_PWM1->MR3, cServoPosition, 16);
+					break;
+			case 4:	itoa( LPC_PWM1->MR4, cServoPosition, 16);
+					break;
+			}
+			if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
+				FreeRTOS_write( xUART3, cServoPosition, strlen( cServoPosition ) );
+			}
+		}
 		LPC_PWM1->LER = ( 1 << 1 ) | ( 1 << 2 ) | ( 1 << 3 ) | ( 1 << 4 );
+		xQueueReset( xCommandQueue );
+		xQueueReset( xParameterQueue );
 	}
 }
