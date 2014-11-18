@@ -9,12 +9,12 @@
 
 #include "pwmctrl.h"
 
-#define pwmctrlDEBUG	0
+#define pwmctrlDEBUG	1
 
 /* Default positions for the servos */
 #define DEFAULT_POS_1	1500
-#define DEFAULT_POS_2	1500
-#define DEFAULT_POS_3	1500
+#define DEFAULT_POS_2	1650
+#define DEFAULT_POS_3	1900
 #define DEFAULT_POS_4	1500
 
 /* Dimensions the buffer into which input characters are placed. */
@@ -40,7 +40,7 @@ xQueueHandle xParameterQueue = 0, xCommandQueue = 0;
 
 void vUARTStart( void ) {
 
-	xCommandQueue = xQueueCreate(4, sizeof( int8_t ) );
+	xCommandQueue = xQueueCreate(4, sizeof( uint8_t ) );
 	xParameterQueue = xQueueCreate(1, 4 * sizeof( int16_t ) );
 
 	xTaskCreate ( prvUARTReceiver,
@@ -117,47 +117,19 @@ void prvUARTReceiver( void * prvParameters ) {
 }
 
 void prvParseCommand( const int8_t * pcUartInput ) {
-	int8_t pcParameter[5];
-	int8_t cCommand, cParameterIndex = 0, cPulseIndex = 0;
-	int16_t sPulse[4];
+	uint8_t ucOpCode, ucSPI, ucCheckSum;
+	int16_t sPWM[4];
 
-	/* The first character of our command received from UART should be the command letter */
-	cCommand = *pcUartInput;
+	ucOpCode = pcUartInput[0];
+	sPWM[0] = 16*pcUartInput[1] + pcUartInput[2];
+	sPWM[1] = 16*pcUartInput[3] + pcUartInput[4];
+	sPWM[2] = 16*pcUartInput[5] + pcUartInput[6];
+	sPWM[3] = 16*pcUartInput[7] + pcUartInput[8];
+	ucSPI = pcUartInput[9];
+	ucCheckSum = ucOpCode ^ sPWM[0] ^ sPWM[1] ^ sPWM[2] ^ sPWM[3] ^ ucSPI;
 
-	pcUartInput++;
-
-	/* Scan for the first parameter, skipping white spaces or quitting if we see a null byte. */
-	while( pwmctrlDELIM == *pcUartInput && '\0' != *pcUartInput) {
-		pcUartInput++;
-	}
-
-	/* Scan the rest of the input until we come to a null byte. */
-	while( '\0' != *pcUartInput ) {
-		memset( pcParameter, '\0', 5);
-
-		/* Get the parameters one at a time, separated by the delimiter. */
-		while( ( pwmctrlDELIM != *pcUartInput ) && ( '\0' != *pcUartInput ) ) {
-			pcParameter[cParameterIndex] = *pcUartInput;
-			cParameterIndex++;
-			pcUartInput++;
-		}
-#if pwmctrlDEBUG
-		if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
-			FreeRTOS_write( xUART3, pcParameter, strlen( pcParameter ) );
-		}
-		if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
-			FreeRTOS_write( xUART3, "\r\n", strlen( "\r\n" ) );
-		}
-#endif
-		/* Store our extacted parameters into an array. */
-		sPulse[cPulseIndex] = atoi( (const char * ) pcParameter );
-		cParameterIndex = 0;
-		pcUartInput++;
-		cPulseIndex++;
-	}
-	/* Send our parameters and command to an ITC queue. */
-	xQueueSend( xParameterQueue, sPulse, portMAX_DELAY );
-	xQueueSend( xCommandQueue, &cCommand, portMAX_DELAY );
+	xQueueSend( xCommandQueue, &ucOpCode, portMAX_DELAY );
+	xQueueSend( xParameterQueue, sPWM, portMAX_DELAY );
 }
 
 void vPWMControllerStart( void ) {
@@ -245,31 +217,68 @@ void prvPWMController( void *prvParameters ) {
 #endif
 		/* An 'a' command sets the servo to an absolute position between 1000 and 2000. */
 		if ( 'a' == cCommand ) {
+			if ( 2000 < sParameters[0] )
+				sParameters[0] = 2000;
+			else if ( 1000 > sParameters[0] )
+				sParameters[0] = 1000;
+
+
+			if ( 1600 < sParameters[1] )
+				sParameters[1] = 1600;
+			else if ( 1350 > sParameters[1] )
+				sParameters[1] = 1350;
+
+			if ( 1900 < sParameters[2] )
+				sParameters[2] = 1900;
+			else if ( 1300 > sParameters[2] )
+				sParameters[2] = 1400;
+
 			LPC_PWM1->MR1 = sParameters[0];
 			LPC_PWM1->MR2 = sParameters[1];
 			LPC_PWM1->MR3 = sParameters[2];
-			LPC_PWM1->MR4 = sParameters[3];
+//			LPC_PWM1->MR4 = sParameters[3];
 
 		/* An 'r' command moves the servos in a clockwise (positive numbers) or counter-
 		clockwise (negative numbers) relative to their current position */
 		} else if ('r' == cCommand ) {
-			LPC_PWM1->MR1 += sParameters[0];
-			LPC_PWM1->MR2 += sParameters[1];
-			LPC_PWM1->MR3 += sParameters[2];
-			LPC_PWM1->MR4 += sParameters[3];
+			if ( 2000 < LPC_PWM1->MR1 + sParameters[0] )
+				LPC_PWM1->MR1 = 2000;
+			else if ( 1000 > LPC_PWM1->MR1 + sParameters[0] )
+				LPC_PWM1->MR1 = 1000;
+			else
+				LPC_PWM1->MR1 += sParameters[0];
+
+			if ( 1650 < LPC_PWM1->MR2 + sParameters[0] )
+				LPC_PWM1->MR2 = 1650;
+			else if ( 1400 > LPC_PWM1->MR2 + sParameters[0] )
+				LPC_PWM1->MR2 = 1400;
+			else
+				LPC_PWM1->MR2 += sParameters[1];
+
+			if ( 1900 < LPC_PWM1->MR3 + sParameters[0] )
+				LPC_PWM1->MR3 = 1900;
+			else if ( 1300 > LPC_PWM1->MR3 + sParameters[0] )
+				LPC_PWM1->MR3 = 1300;
+			else
+				LPC_PWM1->MR3 += sParameters[2];
+
+//			if ( 2000 < LPC_PWM1->MR4 + sParameters[0] )
+//				LPC_PWM1->MR4 = 2000;
+//			else if ( 1000 > LPC_PWM1->MR4 + sParameters[0] )
+//				LPC_PWM1->MR4 = 1000;
+//			else
+//				LPC_PWM1->MR4 = sParameters[3];
 
 		/* The 'p' command return the position of the selected servo. */
 		} else if ('p' == cCommand ) {
-			switch(sParameters[0]) {
-			case 1:	itoa( LPC_PWM1->MR1, cServoPosition, 16);
-					break;
-			case 2:	itoa( LPC_PWM1->MR2, cServoPosition, 16);
-					break;
-			case 3:	itoa( LPC_PWM1->MR3, cServoPosition, 16);
-					break;
-			case 4:	itoa( LPC_PWM1->MR4, cServoPosition, 16);
-					break;
-			}
+			if ( sParameters[0] )
+				itoa( LPC_PWM1->MR1, cServoPosition, 16);
+			else if ( sParameters[1] )
+				itoa( LPC_PWM1->MR2, cServoPosition, 16);
+			else if ( sParameters[2] )
+				itoa( LPC_PWM1->MR3, cServoPosition, 16);
+			else
+				itoa( 0, cServoPosition, 16);
 			if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
 				FreeRTOS_write( xUART3, cServoPosition, strlen( cServoPosition ) );
 			}
