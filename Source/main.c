@@ -82,7 +82,9 @@ int main( void )
 	vUARTStart();
 
 	/* Start the PWM controller. */
-	vPWMControllerStart();
+	vArmControllerTaskStart();
+
+	vPlatformControllerTaskStart();
 
 	/* Start the FreeRTOS scheduler. */
 	vTaskStartScheduler();

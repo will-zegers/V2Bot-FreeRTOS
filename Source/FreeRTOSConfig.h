@@ -62,6 +62,7 @@ extern uint32_t SystemCoreClock;
 #define configUART_RECEIVER_TASK_PRIORITY			( 3U )
 #define configPWM_CONTROLLER_TASK_PRIORITY			( 3U )
 #define configSPI_7_SEG_WRITE_TASK_PRIORITY			( 2U )
+#define configSPI_CONTROLLER_TASK_PRIORITY			( 2U )
 #define configI2C_TASK_PRIORITY						( 0U )
 
 /* Stack sizes to assign to tasks created by this demo. */
@@ -69,6 +70,7 @@ extern uint32_t SystemCoreClock;
 #define configUART3_RECEIVER_STACK_SIZE				( configMINIMAL_STACK_SIZE * 2 )
 #define configPWM_CONTROLLER_STACK_SIZE				( configMINIMAL_STACK_SIZE * 2 )
 #define configSPI_7_SEG_WRITE_TASK_STACK_SIZE		( configMINIMAL_STACK_SIZE * 2 )
+#define configSPI_CONTROLLER_STACK_SIZE				( configMINIMAL_STACK_SIZE * 2 )
 #define configI2C_TASK_STACK_SIZE					( configMINIMAL_STACK_SIZE * 3 )
 
 /* Dimensions a buffer that can be used by the FreeRTOS+CLI command

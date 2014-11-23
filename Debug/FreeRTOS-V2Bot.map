@@ -177,7 +177,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x12d ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
@@ -208,7 +208,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
@@ -255,7 +255,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
@@ -304,7 +304,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
@@ -324,11 +324,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000      0x2a3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000      0x191 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
- .debug_macro   0x00000000      0x162 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x185 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x2f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .debug_macro   0x00000000       0x29 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
- .debug_macro   0x00000000      0x13f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x145 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
  .group         0x00000000        0x8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .group         0x00000000        0x8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .group         0x00000000        0x8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
@@ -369,7 +369,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
@@ -389,11 +389,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000      0x2a3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000      0x191 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
- .debug_macro   0x00000000      0x162 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+ .debug_macro   0x00000000      0x185 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x2f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .debug_macro   0x00000000       0x29 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
- .debug_macro   0x00000000      0x13f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+ .debug_macro   0x00000000      0x145 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .group         0x00000000        0x8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .group         0x00000000        0x8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .group         0x00000000        0x8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
@@ -432,7 +432,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x12d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
@@ -452,7 +452,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000      0x2a3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000      0x191 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
- .debug_macro   0x00000000      0x162 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+ .debug_macro   0x00000000      0x185 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x2f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .debug_macro   0x00000000       0x29 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
@@ -485,7 +485,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
@@ -530,7 +530,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
@@ -573,7 +573,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
@@ -616,7 +616,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
@@ -686,7 +686,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_macro   0x00000000       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
- .debug_macro   0x00000000      0x181 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
+ .debug_macro   0x00000000      0x18f ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
@@ -695,7 +695,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x57 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_macro   0x00000000       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .debug_line    0x00000000      0x39a ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
- .debug_str     0x00000000     0x5f9b ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
+ .debug_str     0x00000000     0x6006 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .comment       0x00000000       0x71 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o
@@ -766,7 +766,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
@@ -775,7 +775,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x57 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_macro   0x00000000       0x49 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .debug_line    0x00000000      0x3a7 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
- .debug_str     0x00000000     0x66ec ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
+ .debug_str     0x00000000     0x6757 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .comment       0x00000000       0x71 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/FreeRTOS-Products/FreeRTOS/croutine.o
@@ -801,7 +801,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./Source/FreeRTOS-Products/FreeRTOS/list.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS/list.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/list.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS/list.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS/list.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS/list.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS/list.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS/list.o
@@ -847,7 +847,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS/queue.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS/queue.o
@@ -918,7 +918,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x12d ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
@@ -955,7 +955,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_macro   0x00000000       0x46 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
- .debug_macro   0x00000000      0x17b ./Source/FreeRTOS-Products/FreeRTOS/timers.o
+ .debug_macro   0x00000000      0x189 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_macro   0x00000000       0x99 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_macro   0x00000000       0x12 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_macro   0x00000000       0x1f ./Source/FreeRTOS-Products/FreeRTOS/timers.o
@@ -1034,7 +1034,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/Examples/UART/CLI-commands.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/UART/CLI-commands.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/UART/CLI-commands.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/UART/CLI-commands.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/UART/CLI-commands.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/UART/CLI-commands.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/UART/CLI-commands.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/UART/CLI-commands.o
@@ -1045,7 +1045,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x1c ./Source/Examples/UART/CLI-commands.o
  .debug_macro   0x00000000       0x10 ./Source/Examples/UART/CLI-commands.o
  .debug_line    0x00000000      0x3bd ./Source/Examples/UART/CLI-commands.o
- .debug_str     0x00000000     0x6385 ./Source/Examples/UART/CLI-commands.o
+ .debug_str     0x00000000     0x63f0 ./Source/Examples/UART/CLI-commands.o
  .comment       0x00000000       0x71 ./Source/Examples/UART/CLI-commands.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/UART/CLI-commands.o
@@ -1110,7 +1110,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/UART/UART-interrupt-driven-command-console.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/UART/UART-interrupt-driven-command-console.o
@@ -1130,10 +1130,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_macro   0x00000000       0x10 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .debug_line    0x00000000      0x5fa ./Source/Examples/UART/UART-interrupt-driven-command-console.o
- .debug_str     0x00000000     0xfe99 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
+ .debug_str     0x00000000    0x10000 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .comment       0x00000000       0x71 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/UART/UART-interrupt-driven-command-console.o
@@ -1195,7 +1195,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/UART/UART-operation-modes-test.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/UART/UART-operation-modes-test.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/UART/UART-operation-modes-test.o
@@ -1215,9 +1215,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/UART/UART-operation-modes-test.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/UART/UART-operation-modes-test.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/UART/UART-operation-modes-test.o
  .debug_line    0x00000000      0x6ff ./Source/Examples/UART/UART-operation-modes-test.o
- .debug_str     0x00000000     0xffe8 ./Source/Examples/UART/UART-operation-modes-test.o
+ .debug_str     0x00000000    0x1014f ./Source/Examples/UART/UART-operation-modes-test.o
  .comment       0x00000000       0x71 ./Source/Examples/UART/UART-operation-modes-test.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/UART/UART-operation-modes-test.o
@@ -1254,14 +1254,14 @@ Discarded input sections
  .data          0x00000000        0x0 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .bss           0x00000000        0x0 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .text.prvSPIWriteTask
-                0x00000000       0xc8 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
+                0x00000000       0xd0 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .text.vSPIWriteTaskStart
                 0x00000000       0x28 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .rodata.pcStringOfDigits
                 0x00000000        0xc ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .rodata.str1.4
                 0x00000000       0x10 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
- .debug_info    0x00000000      0x6d9 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
+ .debug_info    0x00000000      0x6e1 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_abbrev  0x00000000      0x20b ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_loc     0x00000000       0x8c ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_aranges
@@ -1274,7 +1274,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
@@ -1294,10 +1294,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .debug_line    0x00000000      0x56a ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
- .debug_str     0x00000000     0xff77 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
+ .debug_str     0x00000000    0x100de ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .comment       0x00000000       0x71 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o
@@ -1353,7 +1353,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/I2C/I2C-coordinator.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/I2C/I2C-coordinator.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/I2C/I2C-coordinator.o
@@ -1373,11 +1373,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/I2C/I2C-coordinator.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/I2C/I2C-coordinator.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/I2C-coordinator.o
  .debug_macro   0x00000000       0x1c ./Source/Examples/I2C/I2C-coordinator.o
  .debug_line    0x00000000      0x56d ./Source/Examples/I2C/I2C-coordinator.o
- .debug_str     0x00000000     0xfec0 ./Source/Examples/I2C/I2C-coordinator.o
+ .debug_str     0x00000000    0x10027 ./Source/Examples/I2C/I2C-coordinator.o
  .comment       0x00000000       0x71 ./Source/Examples/I2C/I2C-coordinator.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/I2C/I2C-coordinator.o
@@ -1431,7 +1431,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/I2C/I2C-to-OLED.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/I2C/I2C-to-OLED.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/I2C/I2C-to-OLED.o
@@ -1447,11 +1447,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/I2C/I2C-to-OLED.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/I2C/I2C-to-OLED.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_macro   0x00000000       0x1c ./Source/Examples/I2C/I2C-to-OLED.o
  .debug_line    0x00000000      0x532 ./Source/Examples/I2C/I2C-to-OLED.o
- .debug_str     0x00000000     0xe687 ./Source/Examples/I2C/I2C-to-OLED.o
+ .debug_str     0x00000000     0xe7ee ./Source/Examples/I2C/I2C-to-OLED.o
  .comment       0x00000000       0x71 ./Source/Examples/I2C/I2C-to-OLED.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/I2C/I2C-to-OLED.o
@@ -1512,7 +1512,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
@@ -1532,10 +1532,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .debug_line    0x00000000      0x60e ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
- .debug_str     0x00000000     0xffb5 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
+ .debug_str     0x00000000    0x1011c ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .comment       0x00000000       0x71 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o
@@ -1627,7 +1627,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/I2C/oled.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/I2C/oled.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/I2C/oled.o
@@ -1647,11 +1647,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/I2C/oled.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/I2C/oled.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/I2C/oled.o
  .debug_macro   0x00000000       0x1c ./Source/Examples/I2C/oled.o
  .debug_line    0x00000000      0x617 ./Source/Examples/I2C/oled.o
- .debug_str     0x00000000    0x1013c ./Source/Examples/I2C/oled.o
+ .debug_str     0x00000000    0x102a3 ./Source/Examples/I2C/oled.o
  .comment       0x00000000       0x71 ./Source/Examples/I2C/oled.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/I2C/oled.o
@@ -1715,7 +1715,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000      0x5b2 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
- .debug_macro   0x00000000      0x17b ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
+ .debug_macro   0x00000000      0x189 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000       0x99 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000       0x12 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000       0x1f ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
@@ -1734,10 +1734,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x334 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000      0x2a3 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000      0x191 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
- .debug_macro   0x00000000      0x162 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
+ .debug_macro   0x00000000      0x185 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_macro   0x00000000       0x46 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .debug_line    0x00000000      0x55c ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
- .debug_str     0x00000000     0xf360 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
+ .debug_str     0x00000000     0xf4c7 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .comment       0x00000000       0x71 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
  .ARM.attributes
                 0x00000000       0x33 ./Source/Examples/GPIO/GPIO-output-and-software-timers.o
@@ -1780,7 +1780,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/main.o
  .debug_macro   0x00000000       0x46 ./Source/main.o
  .debug_macro   0x00000000      0x5b2 ./Source/main.o
- .debug_macro   0x00000000      0x17b ./Source/main.o
+ .debug_macro   0x00000000      0x189 ./Source/main.o
  .debug_macro   0x00000000       0x99 ./Source/main.o
  .debug_macro   0x00000000       0x12 ./Source/main.o
  .debug_macro   0x00000000       0x1f ./Source/main.o
@@ -1853,6 +1853,7 @@ Discarded input sections
  .group         0x00000000        0x8 ./Source/pwmctrl.o
  .group         0x00000000        0x8 ./Source/pwmctrl.o
  .group         0x00000000        0x8 ./Source/pwmctrl.o
+ .group         0x00000000        0x8 ./Source/pwmctrl.o
  .text          0x00000000        0x0 ./Source/pwmctrl.o
  .data          0x00000000        0x0 ./Source/pwmctrl.o
  .bss           0x00000000        0x0 ./Source/pwmctrl.o
@@ -1860,9 +1861,14 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Source/pwmctrl.o
  .debug_macro   0x00000000      0x12d ./Source/pwmctrl.o
  .debug_macro   0x00000000       0x22 ./Source/pwmctrl.o
- .debug_macro   0x00000000       0x46 ./Source/pwmctrl.o
+ .debug_macro   0x00000000       0x1c ./Source/pwmctrl.o
+ .debug_macro   0x00000000       0x2e ./Source/pwmctrl.o
  .debug_macro   0x00000000      0x5b2 ./Source/pwmctrl.o
- .debug_macro   0x00000000      0x17b ./Source/pwmctrl.o
+ .debug_macro   0x00000000       0x18 ./Source/pwmctrl.o
+ .debug_macro   0x00000000      0x7af ./Source/pwmctrl.o
+ .debug_macro   0x00000000      0x2c7 ./Source/pwmctrl.o
+ .debug_macro   0x00000000       0x5d ./Source/pwmctrl.o
+ .debug_macro   0x00000000       0x46 ./Source/pwmctrl.o
  .debug_macro   0x00000000       0x99 ./Source/pwmctrl.o
  .debug_macro   0x00000000       0x12 ./Source/pwmctrl.o
  .debug_macro   0x00000000       0x1f ./Source/pwmctrl.o
@@ -1871,16 +1877,9 @@ Discarded input sections
  .debug_macro   0x00000000       0x57 ./Source/pwmctrl.o
  .debug_macro   0x00000000       0x9a ./Source/pwmctrl.o
  .debug_macro   0x00000000       0xca ./Source/pwmctrl.o
- .debug_macro   0x00000000       0x1c ./Source/pwmctrl.o
- .debug_macro   0x00000000       0x2e ./Source/pwmctrl.o
- .debug_macro   0x00000000       0x18 ./Source/pwmctrl.o
- .debug_macro   0x00000000      0x7af ./Source/pwmctrl.o
- .debug_macro   0x00000000      0x2c7 ./Source/pwmctrl.o
- .debug_macro   0x00000000       0x5d ./Source/pwmctrl.o
- .debug_macro   0x00000000      0x334 ./Source/pwmctrl.o
  .debug_macro   0x00000000      0x2a3 ./Source/pwmctrl.o
  .debug_macro   0x00000000      0x191 ./Source/pwmctrl.o
- .debug_macro   0x00000000      0x162 ./Source/pwmctrl.o
+ .debug_macro   0x00000000      0x185 ./Source/pwmctrl.o
  .debug_macro   0x00000000       0x96 ./Source/pwmctrl.o
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
@@ -1906,18 +1905,10 @@ Discarded input sections
  .text          0x00000000        0x0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .data          0x00000000        0x0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .bss           0x00000000        0x0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .text.GPIO_GetPointer
-                0x00000000       0x74 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .text.FIO_HalfWordGetPointer
                 0x00000000       0x74 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .text.FIO_ByteGetPointer
                 0x00000000       0x74 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .text.GPIO_SetDir
-                0x00000000       0x50 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .text.GPIO_SetValue
-                0x00000000       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .text.GPIO_ClearValue
-                0x00000000       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .text.GPIO_ReadValue
                 0x00000000       0x2c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .text.GPIO_IntCmd
@@ -1962,13 +1953,6 @@ Discarded input sections
                 0x00000000       0x38 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .text.FIO_ByteReadValue
                 0x00000000       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_info    0x00000000      0xd34 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_abbrev  0x00000000      0x20f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_aranges
-                0x00000000       0xf8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_ranges  0x00000000       0xe8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_macro   0x00000000      0x11b Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_macro   0x00000000      0x850 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x1c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x2e Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
@@ -1977,24 +1961,15 @@ Discarded input sections
  .debug_macro   0x00000000       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000      0x7af Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_macro   0x00000000       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x40 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x46 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_macro   0x00000000      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x99 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x12 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x1f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000      0x1bd Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x5e Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_macro   0x00000000       0x57 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_macro   0x00000000       0xd3 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_line    0x00000000      0x617 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_str     0x00000000     0xa5a1 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .comment       0x00000000       0x71 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .ARM.attributes
-                0x00000000       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
- .debug_frame   0x00000000      0x378 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
@@ -2059,6 +2034,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x7af Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .debug_macro   0x00000000       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_macro   0x00000000      0x145 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .debug_macro   0x00000000       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .debug_macro   0x00000000       0x46 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .debug_macro   0x00000000      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
@@ -2119,14 +2095,15 @@ Discarded input sections
  .text.PINSEL_SetI2C0Pins
                 0x00000000       0x38 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000      0x850 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000       0x1c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000       0x2e Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000      0x12d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000      0x5b2 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000      0x7af Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_macro   0x00000000       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_macro   0x00000000      0x13f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
@@ -2178,7 +2155,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x7af Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .debug_macro   0x00000000       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_macro   0x00000000      0x2f1 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000      0x2f7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .debug_macro   0x00000000       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .debug_macro   0x00000000       0x46 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .debug_macro   0x00000000      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
@@ -2261,7 +2238,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .debug_macro   0x00000000       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .debug_macro   0x00000000      0x334 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_macro   0x00000000      0x2f1 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_macro   0x00000000      0x2f7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .debug_macro   0x00000000       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .debug_macro   0x00000000       0x46 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .debug_macro   0x00000000      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
@@ -2304,7 +2281,6 @@ Discarded input sections
  .debug_macro   0x00000000      0x7af Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
  .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
  .debug_macro   0x00000000       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_macro   0x00000000      0x2f1 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .group         0x00000000        0x8 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
@@ -2729,7 +2705,7 @@ END GROUP
                 0x10008000                __top_RamLoc32 = 0x10008000
                 0x20084000                __top_RamAHB32 = 0x20084000
 
-.text           0x00000000     0x5768
+.text           0x00000000     0x590c
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -2738,16 +2714,16 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x5768 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x590c LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x10 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x5768 LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x590c LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
                 0x000000e4                __bss_section_table = .
                 0x000000e4        0x4 LONG 0x10000010 ADDR (.bss)
-                0x000000e8        0x4 LONG 0x4010 SIZEOF (.bss)
+                0x000000e8        0x4 LONG 0x401c SIZEOF (.bss)
                 0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
                 0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x000000f4                __bss_section_table_end = .
@@ -3096,302 +3072,322 @@ END GROUP
  .text.pop_registers_from_fault_stack
                 0x00002ae8       0x24 ./Source/cr_startup_lpc176x.o
                 0x00002ae8                pop_registers_from_fault_stack
- .text.main     0x00002b0c       0x2c ./Source/main.o
+ .text.main     0x00002b0c       0x30 ./Source/main.o
                 0x00002b0c                main
  .text.vMainConfigureTimerForRunTimeStats
-                0x00002b38       0x20 ./Source/main.o
-                0x00002b38                vMainConfigureTimerForRunTimeStats
+                0x00002b3c       0x20 ./Source/main.o
+                0x00002b3c                vMainConfigureTimerForRunTimeStats
  .text.ulMainGetRunTimeCounterValue
-                0x00002b58       0x54 ./Source/main.o
-                0x00002b58                ulMainGetRunTimeCounterValue
+                0x00002b5c       0x54 ./Source/main.o
+                0x00002b5c                ulMainGetRunTimeCounterValue
  .text.vApplicationStackOverflowHook
-                0x00002bac        0x8 ./Source/main.o
-                0x00002bac                vApplicationStackOverflowHook
+                0x00002bb0        0x8 ./Source/main.o
+                0x00002bb0                vApplicationStackOverflowHook
  .text.vApplicationMallocFailedHook
-                0x00002bb4        0x8 ./Source/main.o
-                0x00002bb4                vApplicationMallocFailedHook
- .text.prvPWMController
-                0x00002bbc      0x300 ./Source/pwmctrl.o
-                0x00002bbc                prvPWMController
+                0x00002bb8        0x8 ./Source/main.o
+                0x00002bb8                vApplicationMallocFailedHook
+ .text.prvSPIController
+                0x00002bc0       0xcc ./Source/pwmctrl.o
+                0x00002bc0                prvSPIController
  .text.vUARTStart
-                0x00002ebc       0x54 ./Source/pwmctrl.o
-                0x00002ebc                vUARTStart
+                0x00002c8c       0x64 ./Source/pwmctrl.o
+                0x00002c8c                vUARTStart
  .text.prvParseCommand
-                0x00002f10       0x7c ./Source/pwmctrl.o
-                0x00002f10                prvParseCommand
+                0x00002cf0       0x68 ./Source/pwmctrl.o
+                0x00002cf0                prvParseCommand
  .text.prvUARTReceiver
-                0x00002f8c       0xdc ./Source/pwmctrl.o
-                0x00002f8c                prvUARTReceiver
- .text.vPWMControllerStart
-                0x00003068       0x30 ./Source/pwmctrl.o
-                0x00003068                vPWMControllerStart
+                0x00002d58       0xd4 ./Source/pwmctrl.o
+                0x00002d58                prvUARTReceiver
+ .text.vArmControllerTaskStart
+                0x00002e2c       0x30 ./Source/pwmctrl.o
+                0x00002e2c                vArmControllerTaskStart
+ .text.prvInitPWM
+                0x00002e5c       0x90 ./Source/pwmctrl.o
+                0x00002e5c                prvInitPWM
+ .text.prvPWMController
+                0x00002eec      0x204 ./Source/pwmctrl.o
+                0x00002eec                prvPWMController
+ .text.vPlatformControllerTaskStart
+                0x000030f0       0x30 ./Source/pwmctrl.o
+                0x000030f0                vPlatformControllerTaskStart
+ .text.GPIO_GetPointer
+                0x00003120       0x74 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .text.GPIO_SetDir
+                0x00003194       0x50 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+                0x00003194                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x000031e4       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+                0x000031e4                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x0000320c       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+                0x0000320c                GPIO_ClearValue
  .text.NVIC_EnableIRQ
-                0x00003098       0x30 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00003234       0x30 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .text.NVIC_DisableIRQ
-                0x000030c8       0x34 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00003264       0x34 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .text.I2C_getNum
-                0x000030fc       0x48 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00003298       0x48 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .text.I2C_Start
-                0x00003144       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x00003144                I2C_Start
+                0x000032e0       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x000032e0                I2C_Start
  .text.I2C_Stop
-                0x00003180       0x30 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x00003180                I2C_Stop
+                0x0000331c       0x30 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x0000331c                I2C_Stop
  .text.I2C_SendByte
-                0x000031b0       0x4c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x0000334c       0x4c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .text.I2C_GetByte
-                0x000031fc       0x54 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00003398       0x54 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .text.I2C_SetClock
-                0x00003250       0xa0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x00003250                I2C_SetClock
+                0x000033ec       0xa0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x000033ec                I2C_SetClock
  .text.I2C_Init
-                0x000032f0       0xa4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x000032f0                I2C_Init
- .text.I2C_Cmd  0x00003394       0x70 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x00003394                I2C_Cmd
+                0x0000348c       0xa4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x0000348c                I2C_Init
+ .text.I2C_Cmd  0x00003530       0x70 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00003530                I2C_Cmd
  .text.I2C_IntCmd
-                0x00003404       0x84 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x00003404                I2C_IntCmd
+                0x000035a0       0x84 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x000035a0                I2C_IntCmd
  .text.I2C_MasterTransferData
-                0x00003488      0x2d8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
-                0x00003488                I2C_MasterTransferData
+                0x00003624      0x2d8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00003624                I2C_MasterTransferData
  .text.check_failed
-                0x00003760        0xc Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
-                0x00003760                check_failed
+                0x000038fc        0xc Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+                0x000038fc                check_failed
  .text.set_PinFunc
-                0x0000376c       0x84 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+                0x00003908       0x84 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .text.set_ResistorMode
-                0x000037f0       0x84 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+                0x0000398c       0x84 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .text.set_OpenDrainMode
-                0x00003874       0x6c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+                0x00003a10       0x6c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .text.PINSEL_ConfigPin
-                0x000038e0       0x50 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
-                0x000038e0                PINSEL_ConfigPin
+                0x00003a7c       0x50 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+                0x00003a7c                PINSEL_ConfigPin
  .text.setSSPclock
-                0x00003930       0xc4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003acc       0xc4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .text.SSP_Init
-                0x000039f4       0x9c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x000039f4                SSP_Init
+                0x00003b90       0x9c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003b90                SSP_Init
  .text.SSP_DeInit
-                0x00003a90       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003a90                SSP_DeInit
+                0x00003c2c       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003c2c                SSP_DeInit
  .text.SSP_GetDataSize
-                0x00003ae8       0x40 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003ae8                SSP_GetDataSize
+                0x00003c84       0x40 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003c84                SSP_GetDataSize
  .text.SSP_ConfigStructInit
-                0x00003b28       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003b28                SSP_ConfigStructInit
- .text.SSP_Cmd  0x00003b64       0x6c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003b64                SSP_Cmd
+                0x00003cc4       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003cc4                SSP_ConfigStructInit
+ .text.SSP_Cmd  0x00003d00       0x6c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003d00                SSP_Cmd
  .text.SSP_SendData
-                0x00003bd0       0x40 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003bd0                SSP_SendData
+                0x00003d6c       0x40 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003d6c                SSP_SendData
  .text.SSP_ReceiveData
-                0x00003c10       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003c10                SSP_ReceiveData
+                0x00003dac       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003dac                SSP_ReceiveData
  .text.SSP_ReadWrite
-                0x00003c4c      0x350 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003c4c                SSP_ReadWrite
+                0x00003de8      0x350 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00003de8                SSP_ReadWrite
  .text.SSP_IntConfig
-                0x00003f9c       0x60 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
-                0x00003f9c                SSP_IntConfig
+                0x00004138       0x60 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x00004138                SSP_IntConfig
  .text.uart_set_divisors
-                0x00003ffc      0x214 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004198      0x214 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .text.UART_Init
-                0x00004210      0x2e4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x00004210                UART_Init
+                0x000043ac      0x2e4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x000043ac                UART_Init
  .text.UART_SendByte
-                0x000044f4       0x68 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x000044f4                UART_SendByte
+                0x00004690       0x68 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004690                UART_SendByte
  .text.UART_ReceiveByte
-                0x0000455c       0x64 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x0000455c                UART_ReceiveByte
+                0x000046f8       0x64 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x000046f8                UART_ReceiveByte
  .text.UART_Send
-                0x000045c0       0xe8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x000045c0                UART_Send
+                0x0000475c       0xe8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x0000475c                UART_Send
  .text.UART_Receive
-                0x000046a8       0xb8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x000046a8                UART_Receive
+                0x00004844       0xb8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004844                UART_Receive
  .text.UART_IntConfig
-                0x00004760      0x184 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x00004760                UART_IntConfig
+                0x000048fc      0x184 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x000048fc                UART_IntConfig
  .text.UART_GetIntId
-                0x000048e4       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x000048e4                UART_GetIntId
+                0x00004a80       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004a80                UART_GetIntId
  .text.UART_CheckBusy
-                0x0000493c       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x0000493c                UART_CheckBusy
+                0x00004ad8       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004ad8                UART_CheckBusy
  .text.UART_FIFOConfig
-                0x00004964      0x158 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x00004964                UART_FIFOConfig
+                0x00004b00      0x158 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004b00                UART_FIFOConfig
  .text.UART_TxCmd
-                0x00004abc       0xc8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
-                0x00004abc                UART_TxCmd
+                0x00004c58       0xc8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00004c58                UART_TxCmd
  .text.CLKPWR_SetPCLKDiv
-                0x00004b84       0x8c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
-                0x00004b84                CLKPWR_SetPCLKDiv
+                0x00004d20       0x8c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+                0x00004d20                CLKPWR_SetPCLKDiv
  .text.CLKPWR_GetPCLKSEL
-                0x00004c10       0x4c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
-                0x00004c10                CLKPWR_GetPCLKSEL
+                0x00004dac       0x4c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+                0x00004dac                CLKPWR_GetPCLKSEL
  .text.CLKPWR_GetPCLK
-                0x00004c5c       0x64 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
-                0x00004c5c                CLKPWR_GetPCLK
+                0x00004df8       0x64 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+                0x00004df8                CLKPWR_GetPCLK
  .text.CLKPWR_ConfigPPWR
-                0x00004cc0       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
-                0x00004cc0                CLKPWR_ConfigPPWR
+                0x00004e5c       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+                0x00004e5c                CLKPWR_ConfigPPWR
  .text.SystemInit
-                0x00004d18       0xe0 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x00004d18                SystemInit
- .text.__main   0x00004df8       0x14 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(_cr__main.o)
-                0x00004df8                __main
- .text.memcpy   0x00004e0c        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcpy.o)
-                0x00004e0c                memcpy
- .text.memset   0x00004e10        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
-                0x00004e10                memset
- .text._initio  0x00004e14       0xa4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
-                0x00004e14                _initio
- .text.itoa     0x00004eb8       0x60 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
-                0x00004eb8                itoa
- .text.memcmp   0x00004f18       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
-                0x00004f18                memcmp
- .text.setvbuf  0x00004f5c       0x40 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
-                0x00004f5c                setvbuf
- .text.strcmp   0x00004f9c       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcmp.o)
-                0x00004f9c                strcmp
- .text.strlen   0x00004fe0       0x4a c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
-                0x00004fe0                strlen
- .text.strncpy  0x0000502a       0x58 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
-                0x0000502a                strncpy
+                0x00004eb4       0xe0 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00004eb4                SystemInit
+ .text.__main   0x00004f94       0x14 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(_cr__main.o)
+                0x00004f94                __main
+ .text.memcpy   0x00004fa8        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcpy.o)
+                0x00004fa8                memcpy
+ .text.memset   0x00004fac        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                0x00004fac                memset
+ .text._initio  0x00004fb0       0xa4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x00004fb0                _initio
+ .text.itoa     0x00005054       0x60 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+                0x00005054                itoa
+ .text.memcmp   0x000050b4       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
+                0x000050b4                memcmp
+ .text.setvbuf  0x000050f8       0x40 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
+                0x000050f8                setvbuf
+ .text.strcmp   0x00005138       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcmp.o)
+                0x00005138                strcmp
+ .text.strlen   0x0000517c       0x4a c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
+                0x0000517c                strlen
+ .text.strncpy  0x000051c6       0x58 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
+                0x000051c6                strncpy
  .text._deferredlazyseek
-                0x00005082       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
-                0x00005082                _deferredlazyseek
- .text._fdopen  0x000050c6       0x6a c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
-                0x000050c6                _fdopen
- .text._fflush  0x00005130       0x58 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
-                0x00005130                _fflush
+                0x0000521e       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
+                0x0000521e                _deferredlazyseek
+ .text._fdopen  0x00005262       0x6a c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
+                0x00005262                _fdopen
+ .text._fflush  0x000052cc       0x58 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
+                0x000052cc                _fflush
  .text._Cwritebuf
-                0x00005188       0x70 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
-                0x00005188                _Cwritebuf
- .text.malloc   0x000051f8       0xc4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x000051f8                malloc
- .text.free     0x000052bc        0xc c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x000052bc                free
+                0x00005324       0x70 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
+                0x00005324                _Cwritebuf
+ .text.malloc   0x00005394       0xc4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00005394                malloc
+ .text.free     0x00005458        0xc c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00005458                free
  .text._Csys_alloc
-                0x000052c8       0x20 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x000052c8                _Csys_alloc
- .text.fclose   0x000052e8       0x6c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
-                0x000052e8                fclose
- .text.fflush   0x00005354       0x30 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
-                0x00005354                fflush
- .text.fseek    0x00005384      0x10c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
-                0x00005384                fseek
- .text.ftell    0x00005490       0x4c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
-                0x00005490                ftell
- .text.remove   0x000054dc       0x14 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
-                0x000054dc                remove
- .text._sbrk    0x000054f0       0x40 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_sbrk.o)
-                0x000054f0                _sbrk
+                0x00005464       0x20 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00005464                _Csys_alloc
+ .text.fclose   0x00005484       0x6c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
+                0x00005484                fclose
+ .text.fflush   0x000054f0       0x30 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
+                0x000054f0                fflush
+ .text.fseek    0x00005520      0x10c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
+                0x00005520                fseek
+ .text.ftell    0x0000562c       0x4c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
+                0x0000562c                ftell
+ .text.remove   0x00005678       0x14 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
+                0x00005678                remove
+ .text._sbrk    0x0000568c       0x40 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_sbrk.o)
+                0x0000568c                _sbrk
  .text._do_fflush
-                0x00005530       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
-                0x00005530                _do_fflush
+                0x000056cc       0x44 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
+                0x000056cc                _do_fflush
  .text.__check_heap_overflow
-                0x00005574       0x18 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_check_heap.o)
-                0x00005574                __check_heap_overflow
+                0x00005710       0x18 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_check_heap.o)
+                0x00005710                __check_heap_overflow
  .text.__aeabi_memcpy
-                0x0000558c       0x3a c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
-                0x0000558c                __aeabi_memcpy
-                0x00005598                __aeabi_memcpy8
-                0x00005598                __aeabi_memcpy4
+                0x00005728       0x3a c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00005728                __aeabi_memcpy
+                0x00005734                __aeabi_memcpy8
+                0x00005734                __aeabi_memcpy4
  .text.__aeabi_memset_lowlevel
-                0x000055c6       0x38 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
-                0x000055c6                __aeabi_lowlevel_memset
+                0x00005762       0x38 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00005762                __aeabi_lowlevel_memset
  .text.__sys_appexit
-                0x000055fe        0x2 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_appexit.o)
-                0x000055fe                __sys_appexit
-                0x000055fe                __exit
+                0x0000579a        0x2 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_appexit.o)
+                0x0000579a                __sys_appexit
+                0x0000579a                __exit
  .text.__sys_close
-                0x00005600        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_close.o)
-                0x00005600                __sys_close
+                0x0000579c        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_close.o)
+                0x0000579c                __sys_close
  .text.__sys_flen
-                0x00005606        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_flen.o)
-                0x00005606                __sys_flen
+                0x000057a2        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_flen.o)
+                0x000057a2                __sys_flen
  .text.__sys_istty
-                0x0000560c        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_istty.o)
-                0x0000560c                __sys_istty
+                0x000057a8        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_istty.o)
+                0x000057a8                __sys_istty
  .text.__sys_remove
-                0x00005612        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_remove.o)
-                0x00005612                __sys_remove
+                0x000057ae        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_remove.o)
+                0x000057ae                __sys_remove
  .text.__sys_seek
-                0x00005618        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_seek.o)
-                0x00005618                __sys_seek
+                0x000057b4        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_seek.o)
+                0x000057b4                __sys_seek
  .text.__sys_tmpnam
-                0x0000561e        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_tmpnam.o)
-                0x0000561e                __sys_tmpnam
+                0x000057ba        0x6 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_tmpnam.o)
+                0x000057ba                __sys_tmpnam
  .text.__sys_write
-                0x00005624        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_write.o)
-                0x00005624                __sys_write
-                0x00005624                __write
+                0x000057c0        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_write.o)
+                0x000057c0                __sys_write
+                0x000057c0                __write
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata.xIRQ   0x00005628        0x4 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .rodata.xIRQ   0x0000562c        0x4 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
- .rodata.xIRQ   0x00005630        0x4 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+ .rodata.xIRQ   0x000057c4        0x4 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .rodata.xIRQ   0x000057c8        0x4 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+ .rodata.xIRQ   0x000057cc        0x4 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
  .rodata.str1.4
-                0x00005634       0x17 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+                0x000057d0       0x17 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
                                  0x18 (size before relaxing)
- *fill*         0x0000564b        0x1 
+ *fill*         0x000057e7        0x1 
  .rodata.xAvailablePeripherals
-                0x0000564c       0x24 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+                0x000057e8       0x24 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
  .rodata.str1.4
-                0x00005670       0x49 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+                0x0000580c       0x49 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
                                  0x50 (size before relaxing)
- *fill*         0x000056b9        0x3 
+ *fill*         0x00005855        0x3 
  .rodata.ucExpectedStackBytes.4562
-                0x000056bc       0x14 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+                0x00005858       0x14 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .rodata.str1.4
-                0x000056d0        0x8 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
+                0x0000586c        0x8 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .rodata.str1.4
-                0x000056d8       0x14 ./Source/pwmctrl.o
-                                 0x20 (size before relaxing)
- .rodata        0x000056ec       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .rodata        0x00005704       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .rodata        0x0000571c       0x1c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00005874       0x1c ./Source/pwmctrl.o
+                                 0x30 (size before relaxing)
+ .rodata        0x00005890       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .rodata        0x000058a8       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .rodata        0x000058c0       0x1c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .rodata.str1.1
-                0x00005738        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x000058dc        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
  .rodata.digits
-                0x0000573c       0x11 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+                0x000058e0       0x11 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
  .rodata.str1.1
-                0x0000574d       0x18 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x00005768                . = ALIGN (0x4)
- *fill*         0x00005765        0x3 ff
+                0x000058f1       0x18 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x0000590c                . = ALIGN (0x4)
+ *fill*         0x00005909        0x3 ff
 
-.glue_7         0x00005768        0x0
+.glue_7         0x0000590c        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00005768        0x0
+.glue_7t        0x0000590c        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00005768        0x0
+.vfp11_veneer   0x0000590c        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00005768        0x0
+.v4_bx          0x0000590c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00005768        0x0
+.iplt           0x0000590c        0x0
  .iplt          0x00000000        0x0 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
 
-.rel.dyn        0x00005768        0x0
+.rel.dyn        0x0000590c        0x0
  .rel.iplt      0x00000000        0x0 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00005768                __exidx_start = .
+                0x0000590c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00005768                __exidx_end = .
-                0x00005768                _etext = .
+                0x0000590c                __exidx_end = .
+                0x0000590c                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x00005768
+.data_RAM2      0x2007c000        0x0 load address 0x0000590c
  FILL mask 0xff
  *(.ramfunc.$RAM2)
  *(.ramfunc.$RamAHB32)
@@ -3405,7 +3401,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x10 load address 0x00005768
+.data           0x10000000       0x10 load address 0x0000590c
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -3423,7 +3419,7 @@ END GROUP
                 0x10000010                . = ALIGN (0x4)
                 0x10000010                _edata = .
 
-.igot.plt       0x10000010        0x0 load address 0x00005778
+.igot.plt       0x10000010        0x0 load address 0x0000591c
  .igot.plt      0x00000000        0x0 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -3431,7 +3427,7 @@ END GROUP
  *(.bss.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.bss            0x10000010     0x4010
+.bss            0x10000010     0x401c
                 0x10000010                _bss = .
  *(.bss*)
  .bss.xHeap     0x10000010     0x3c00 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
@@ -3519,50 +3515,56 @@ END GROUP
  .bss.ulClocksPer10thOfAMilliSecond
                 0x10003e1c        0x4 ./Source/main.o
  .bss.xUART3    0x10003e20        0x4 ./Source/pwmctrl.o
- .bss.cInputString.5815
-                0x10003e24       0x34 ./Source/pwmctrl.o
+ .bss.xPWMQueue
+                0x10003e24        0x4 ./Source/pwmctrl.o
+                0x10003e24                xPWMQueue
  .bss.xUARTReceiverTask
-                0x10003e58        0x4 ./Source/pwmctrl.o
+                0x10003e28        0x4 ./Source/pwmctrl.o
+ .bss.xSPIQueue
+                0x10003e2c        0x4 ./Source/pwmctrl.o
+                0x10003e2c                xSPIQueue
+ .bss.cInputString.5936
+                0x10003e30       0x34 ./Source/pwmctrl.o
+ .bss.xSPIPort  0x10003e64        0x4 ./Source/pwmctrl.o
  .bss.xPWMControllerTask
-                0x10003e5c        0x4 ./Source/pwmctrl.o
- .bss.xParameterQueue
-                0x10003e60        0x4 ./Source/pwmctrl.o
-                0x10003e60                xParameterQueue
- .bss.xCommandQueue
-                0x10003e64        0x4 ./Source/pwmctrl.o
-                0x10003e64                xCommandQueue
- .bss.i2cdat    0x10003e68       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .bss.errno     0x10003e80        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
-                0x10003e80                errno
+                0x10003e68        0x4 ./Source/pwmctrl.o
+ .bss.xOpCodeQueue
+                0x10003e6c        0x4 ./Source/pwmctrl.o
+                0x10003e6c                xOpCodeQueue
+ .bss.xSPIControllerTask
+                0x10003e70        0x4 ./Source/pwmctrl.o
+ .bss.i2cdat    0x10003e74       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .bss.errno     0x10003e8c        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
+                0x10003e8c                errno
  *(COMMON)
- COMMON         0x10003e84       0x50 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
-                0x10003e84                xQueueRegistry
- COMMON         0x10003ed4        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
-                0x10003ed4                _extra
- COMMON         0x10003ed8      0x140 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
-                0x10003ed8                __Ciob
- COMMON         0x10004018        0x8 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
-                0x10004018                __heaps
-                0x1000401c                __end_of_heap
-                0x10004020                . = ALIGN (0x4)
-                0x10004020                _ebss = .
-                0x10004020                PROVIDE (end, .)
+ COMMON         0x10003e90       0x50 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
+                0x10003e90                xQueueRegistry
+ COMMON         0x10003ee0        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x10003ee0                _extra
+ COMMON         0x10003ee4      0x140 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
+                0x10003ee4                __Ciob
+ COMMON         0x10004024        0x8 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
+                0x10004024                __heaps
+                0x10004028                __end_of_heap
+                0x1000402c                . = ALIGN (0x4)
+                0x1000402c                _ebss = .
+                0x1000402c                PROVIDE (end, .)
 
 .noinit_RAM2    0x2007c000        0x0
  *(.noinit.$RAM2*)
  *(.noinit.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.noinit         0x10004020        0x0
-                0x10004020                _noinit = .
+.noinit         0x1000402c        0x0
+                0x1000402c                _noinit = .
  *(.noinit*)
-                0x10004020                . = ALIGN (0x4)
-                0x10004020                _end_noinit = .
-                0x10004020                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x1000402c                . = ALIGN (0x4)
+                0x1000402c                _end_noinit = .
+                0x1000402c                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
                 0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
 OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
 
-.debug_info     0x00000000     0xf1a8
+.debug_info     0x00000000    0x10206
  .debug_info    0x00000000      0x310 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_info    0x00000310      0x280 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_info    0x00000590      0x32b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
@@ -3579,17 +3581,18 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_info    0x00007b82     0x1da5 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
  .debug_info    0x00009927      0xd65 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_info    0x0000a68c      0x360 ./Source/cr_startup_lpc176x.o
- .debug_info    0x0000a9ec      0x434 ./Source/main.o
- .debug_info    0x0000ae20      0xf7c ./Source/pwmctrl.o
- .debug_info    0x0000bd9c      0xce7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_info    0x0000ca83       0xd3 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_info    0x0000cb56      0x455 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_info    0x0000cfab      0x70c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_info    0x0000d6b7     0x11ba Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_info    0x0000e871      0x61f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_info    0x0000ee90      0x318 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x0000a9ec      0x444 ./Source/main.o
+ .debug_info    0x0000ae30     0x1296 ./Source/pwmctrl.o
+ .debug_info    0x0000c0c6      0xd34 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_info    0x0000cdfa      0xce7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_info    0x0000dae1       0xd3 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_info    0x0000dbb4      0x455 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_info    0x0000e009      0x70c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_info    0x0000e715     0x11ba Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_info    0x0000f8cf      0x61f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_info    0x0000feee      0x318 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_abbrev   0x00000000     0x2e36
+.debug_abbrev   0x00000000     0x30b3
  .debug_abbrev  0x00000000      0x1be ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_abbrev  0x000001be      0x186 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_abbrev  0x00000344      0x107 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
@@ -3607,16 +3610,17 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_abbrev  0x00001bbd      0x20f ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_abbrev  0x00001dcc      0x141 ./Source/cr_startup_lpc176x.o
  .debug_abbrev  0x00001f0d      0x21f ./Source/main.o
- .debug_abbrev  0x0000212c      0x258 ./Source/pwmctrl.o
- .debug_abbrev  0x00002384      0x27f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_abbrev  0x00002603       0x6c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_abbrev  0x0000266f      0x141 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_abbrev  0x000027b0      0x1c5 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_abbrev  0x00002975      0x211 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_abbrev  0x00002b86      0x1ca Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_abbrev  0x00002d50       0xe6 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x0000212c      0x2c6 ./Source/pwmctrl.o
+ .debug_abbrev  0x000023f2      0x20f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_abbrev  0x00002601      0x27f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_abbrev  0x00002880       0x6c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_abbrev  0x000028ec      0x141 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_abbrev  0x00002a2d      0x1c5 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_abbrev  0x00002bf2      0x211 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_abbrev  0x00002e03      0x1ca Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_abbrev  0x00002fcd       0xe6 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_loc      0x00000000     0x62c2
+.debug_loc      0x00000000     0x6214
  .debug_loc     0x00000000      0x1c8 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_loc     0x000001c8       0x80 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_loc     0x00000248       0xe6 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
@@ -3634,9 +3638,9 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_loc     0x000055c0      0x8c5 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_loc     0x00005e85      0x15f ./Source/cr_startup_lpc176x.o
  .debug_loc     0x00005fe4       0xdd ./Source/main.o
- .debug_loc     0x000060c1      0x201 ./Source/pwmctrl.o
+ .debug_loc     0x000060c1      0x153 ./Source/pwmctrl.o
 
-.debug_aranges  0x00000000      0xa30
+.debug_aranges  0x00000000      0xb40
  .debug_aranges
                 0x00000000       0x38 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_aranges
@@ -3672,23 +3676,25 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_aranges
                 0x00000650       0x40 ./Source/main.o
  .debug_aranges
-                0x00000690       0x40 ./Source/pwmctrl.o
+                0x00000690       0x58 ./Source/pwmctrl.o
  .debug_aranges
-                0x000006d0       0xd0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x000006e8       0xf8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .debug_aranges
-                0x000007a0       0x20 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+                0x000007e0       0xd0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .debug_aranges
-                0x000007c0       0x48 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+                0x000008b0       0x20 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
  .debug_aranges
-                0x00000808       0xa8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x000008d0       0x48 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .debug_aranges
-                0x000008b0      0x100 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00000918       0xa8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .debug_aranges
-                0x000009b0       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+                0x000009c0      0x100 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .debug_aranges
-                0x00000a08       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000ac0       0x58 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_aranges
+                0x00000b18       0x28 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_ranges   0x00000000      0x950
+.debug_ranges   0x00000000      0xa50
  .debug_ranges  0x00000000       0x28 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_ranges  0x00000028       0x70 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_ranges  0x00000098       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
@@ -3706,16 +3712,17 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_ranges  0x00000510       0x78 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_ranges  0x00000588       0x78 ./Source/cr_startup_lpc176x.o
  .debug_ranges  0x00000600       0x30 ./Source/main.o
- .debug_ranges  0x00000630       0x30 ./Source/pwmctrl.o
- .debug_ranges  0x00000660       0xc0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_ranges  0x00000720       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_ranges  0x00000730       0x38 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_ranges  0x00000768       0x98 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_ranges  0x00000800       0xf0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_ranges  0x000008f0       0x48 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_ranges  0x00000938       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000630       0x48 ./Source/pwmctrl.o
+ .debug_ranges  0x00000678       0xe8 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_ranges  0x00000760       0xc0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_ranges  0x00000820       0x10 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_ranges  0x00000830       0x38 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_ranges  0x00000868       0x98 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_ranges  0x00000900       0xf0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_ranges  0x000009f0       0x48 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_ranges  0x00000a38       0x18 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_macro    0x00000000     0x6840
+.debug_macro    0x00000000     0x7958
  .debug_macro   0x00000000       0xeb ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_macro   0x000000eb      0x856 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_macro   0x00000941       0x10 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
@@ -3723,149 +3730,159 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_macro   0x00000a7e       0x28 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_macro   0x00000aa6       0x46 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_macro   0x00000aec      0x5b2 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x0000109e      0x17b ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x00001219       0x99 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x000012b2       0x12 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x000012c4       0x1f ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x000012e3      0x1bd ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x000014a0       0x5e ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x000014fe       0x57 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
- .debug_macro   0x00001555      0x117 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
- .debug_macro   0x0000166c       0x16 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
- .debug_macro   0x00001682       0xed ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
- .debug_macro   0x0000176f       0x9a ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
- .debug_macro   0x00001809       0xca ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
- .debug_macro   0x000018d3      0x1af ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00001a82       0x96 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00001b18       0x77 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00001b8f       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00001bab       0x2e ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00001bd9       0x18 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00001bf1      0x7af ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x000023a0      0x2c7 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00002667       0x5d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x000026c4      0x334 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x000029f8      0x2a3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00002c9b      0x191 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00002e2c      0x162 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00002f8e       0x2f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00002fbd       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00002fd9       0x29 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00003002      0x13f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_macro   0x00003141      0x1c7 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
- .debug_macro   0x00003308      0x1bb ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
- .debug_macro   0x000034c3      0x1a6 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
- .debug_macro   0x00003669       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
- .debug_macro   0x00003679      0x124 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
- .debug_macro   0x0000379d      0x120 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
- .debug_macro   0x000038bd      0x120 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
- .debug_macro   0x000039dd      0x124 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
- .debug_macro   0x00003b01       0xbc ./Source/FreeRTOS-Products/FreeRTOS/list.o
- .debug_macro   0x00003bbd      0x152 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
- .debug_macro   0x00003d0f      0x16e ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_macro   0x00003e7d       0xa0 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_macro   0x00003f1d       0x22 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_macro   0x00003f3f       0x5b ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_macro   0x00003f9a       0x17 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_macro   0x00003fb1       0xe5 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
- .debug_macro   0x00004096       0x52 ./Source/cr_startup_lpc176x.o
- .debug_macro   0x000040e8      0x85c ./Source/cr_startup_lpc176x.o
- .debug_macro   0x00004944      0x117 ./Source/main.o
- .debug_macro   0x00004a5b      0x1d8 ./Source/pwmctrl.o
- .debug_macro   0x00004c33      0x137 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_macro   0x00004d6a      0x18b Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_macro   0x00004ef5      0x2f1 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_macro   0x000051e6      0x145 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_macro   0x0000532b       0xd9 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x00005404       0x5d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x00005461      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x000055c9       0x8d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_macro   0x00005656       0x1c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_macro   0x00005672      0x2c7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_macro   0x00005939      0x12e Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_macro   0x00005a67      0x29d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_macro   0x00005d04      0x12e Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_macro   0x00005e32       0x8d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_macro   0x00005ebf      0x12b Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00005fea      0x856 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000109e      0x189 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x00001227       0x99 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x000012c0       0x12 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x000012d2       0x1f ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x000012f1      0x1bd ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x000014ae       0x5e ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x0000150c       0x57 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+ .debug_macro   0x00001563      0x117 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_macro   0x0000167a       0x16 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_macro   0x00001690       0xed ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
+ .debug_macro   0x0000177d       0x9a ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
+ .debug_macro   0x00001817       0xca ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
+ .debug_macro   0x000018e1      0x1a5 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00001a86       0x96 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00001b1c       0x77 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00001b93       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00001baf       0x2e ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00001bdd       0x18 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00001bf5      0x7af ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x000023a4      0x2c7 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x0000266b       0x5d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x000026c8      0x334 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x000029fc      0x2a3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00002c9f      0x191 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00002e30      0x185 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00002fb5       0x2f ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00002fe4       0x1c ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00003000       0x29 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x00003029      0x145 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_macro   0x0000316e      0x1bd ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+ .debug_macro   0x0000332b      0x1b1 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+ .debug_macro   0x000034dc      0x1a6 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+ .debug_macro   0x00003682       0x10 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+ .debug_macro   0x00003692      0x124 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
+ .debug_macro   0x000037b6      0x120 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
+ .debug_macro   0x000038d6      0x120 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
+ .debug_macro   0x000039f6      0x124 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
+ .debug_macro   0x00003b1a       0xbc ./Source/FreeRTOS-Products/FreeRTOS/list.o
+ .debug_macro   0x00003bd6      0x152 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
+ .debug_macro   0x00003d28      0x16e ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_macro   0x00003e96       0xa0 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_macro   0x00003f36       0x22 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_macro   0x00003f58       0x5b ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_macro   0x00003fb3       0x17 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_macro   0x00003fca       0xe5 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
+ .debug_macro   0x000040af       0x52 ./Source/cr_startup_lpc176x.o
+ .debug_macro   0x00004101      0x85c ./Source/cr_startup_lpc176x.o
+ .debug_macro   0x0000495d      0x117 ./Source/main.o
+ .debug_macro   0x00004a74      0x1d5 ./Source/pwmctrl.o
+ .debug_macro   0x00004c49       0x40 ./Source/pwmctrl.o
+ .debug_macro   0x00004c89      0x18f ./Source/pwmctrl.o
+ .debug_macro   0x00004e18      0x33a ./Source/pwmctrl.o
+ .debug_macro   0x00005152      0x11b Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_macro   0x0000526d      0x850 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_macro   0x00005abd       0x63 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_macro   0x00005b20      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_macro   0x00005c88       0xd3 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_macro   0x00005d5b      0x12d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_macro   0x00005e88      0x18b Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_macro   0x00006013      0x2f7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000630a       0xd9 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x000063e3       0x5d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00006440      0x168 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x000065a8       0x8d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00006635      0x13f Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00006774      0x124 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_macro   0x00006898      0x29d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_macro   0x00006b35      0x124 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_macro   0x00006c59       0x8d Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00006ce6      0x2f1 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00006fd7      0x12b Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00007102      0x856 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x00000000     0x798f
+.debug_line     0x00000000     0x7fd5
  .debug_line    0x00000000      0x30f ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_line    0x0000030f      0x321 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_line    0x00000630      0x35d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
- .debug_line    0x0000098d      0x791 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
- .debug_line    0x0000111e      0x71a ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
- .debug_line    0x00001838      0x78b ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
- .debug_line    0x00001fc3      0x620 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
- .debug_line    0x000025e3      0x3a8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
- .debug_line    0x0000298b      0x476 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
- .debug_line    0x00002e01      0x437 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
- .debug_line    0x00003238      0x3f3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
- .debug_line    0x0000362b      0x2e0 ./Source/FreeRTOS-Products/FreeRTOS/list.o
- .debug_line    0x0000390b      0x684 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
- .debug_line    0x00003f8f      0x9a9 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
- .debug_line    0x00004938      0x453 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
- .debug_line    0x00004d8b      0x1c8 ./Source/cr_startup_lpc176x.o
- .debug_line    0x00004f53      0x391 ./Source/main.o
- .debug_line    0x000052e4      0x58e ./Source/pwmctrl.o
- .debug_line    0x00005872      0x7eb Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_line    0x0000605d      0x2d9 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_line    0x00006336      0x26c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_line    0x000065a2      0x656 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_line    0x00006bf8      0x8ed Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_line    0x000074e5      0x2d2 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_line    0x000077b7      0x1d8 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x0000098d      0x784 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+ .debug_line    0x00001111      0x70d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+ .debug_line    0x0000181e      0x77e ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+ .debug_line    0x00001f9c      0x620 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+ .debug_line    0x000025bc      0x3a8 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
+ .debug_line    0x00002964      0x476 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
+ .debug_line    0x00002dda      0x437 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
+ .debug_line    0x00003211      0x3f3 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
+ .debug_line    0x00003604      0x2e0 ./Source/FreeRTOS-Products/FreeRTOS/list.o
+ .debug_line    0x000038e4      0x684 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
+ .debug_line    0x00003f68      0x9a9 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+ .debug_line    0x00004911      0x453 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
+ .debug_line    0x00004d64      0x1c8 ./Source/cr_startup_lpc176x.o
+ .debug_line    0x00004f2c      0x392 ./Source/main.o
+ .debug_line    0x000052be      0x60a ./Source/pwmctrl.o
+ .debug_line    0x000058c8      0x617 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_line    0x00005edf      0x7de Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_line    0x000066bd      0x2d9 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_line    0x00006996      0x26c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_line    0x00006c02      0x649 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_line    0x0000724b      0x8e0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_line    0x00007b2b      0x2d2 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_line    0x00007dfd      0x1d8 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_str      0x00000000    0x18f1b
- .debug_str     0x00000000     0x60c4 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
-                               0x6157 (size before relaxing)
- .debug_str     0x000060c4      0x55b ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
-                               0x6150 (size before relaxing)
- .debug_str     0x0000661f      0xc40 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
-                               0x6880 (size before relaxing)
- .debug_str     0x0000725f     0xbc84 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
-                              0x124b6 (size before relaxing)
- .debug_str     0x00012ee3      0x359 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
-                              0x1220b (size before relaxing)
- .debug_str     0x0001323c      0x4f5 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
-                              0x12642 (size before relaxing)
- .debug_str     0x00013731      0x21d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
-                              0x11933 (size before relaxing)
- .debug_str     0x0001394e       0x7a ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
-                               0x91e1 (size before relaxing)
- .debug_str     0x000139c8      0x171 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
-                               0x94e9 (size before relaxing)
- .debug_str     0x00013b39       0xde ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
-                               0x941a (size before relaxing)
- .debug_str     0x00013c17       0x6e ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
-                               0x9325 (size before relaxing)
- .debug_str     0x00013c85      0x14b ./Source/FreeRTOS-Products/FreeRTOS/list.o
-                               0x5a74 (size before relaxing)
- .debug_str     0x00013dd0      0x694 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
-                               0x673e (size before relaxing)
- .debug_str     0x00014464     0x19e7 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
-                               0x7a10 (size before relaxing)
- .debug_str     0x00015e4b      0x370 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
-                               0x7057 (size before relaxing)
- .debug_str     0x000161bb      0x2f6 ./Source/cr_startup_lpc176x.o
+.debug_str      0x00000000    0x1973f
+ .debug_str     0x00000000     0x612f ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
+                               0x61c2 (size before relaxing)
+ .debug_str     0x0000612f      0x55b ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
+                               0x61bb (size before relaxing)
+ .debug_str     0x0000668a      0xc40 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
+                               0x68eb (size before relaxing)
+ .debug_str     0x000072ca     0xbd80 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o
+                              0x1261d (size before relaxing)
+ .debug_str     0x0001304a      0x359 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o
+                              0x12372 (size before relaxing)
+ .debug_str     0x000133a3      0x4f5 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o
+                              0x127a9 (size before relaxing)
+ .debug_str     0x00013898      0x21d ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o
+                              0x11a9a (size before relaxing)
+ .debug_str     0x00013ab5       0x7a ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o
+                               0x924c (size before relaxing)
+ .debug_str     0x00013b2f      0x171 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o
+                               0x9554 (size before relaxing)
+ .debug_str     0x00013ca0       0xde ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o
+                               0x9485 (size before relaxing)
+ .debug_str     0x00013d7e       0x6e ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o
+                               0x9390 (size before relaxing)
+ .debug_str     0x00013dec      0x14b ./Source/FreeRTOS-Products/FreeRTOS/list.o
+                               0x5adf (size before relaxing)
+ .debug_str     0x00013f37      0x694 ./Source/FreeRTOS-Products/FreeRTOS/queue.o
+                               0x67a9 (size before relaxing)
+ .debug_str     0x000145cb     0x19e7 ./Source/FreeRTOS-Products/FreeRTOS/tasks.o
+                               0x7a7b (size before relaxing)
+ .debug_str     0x00015fb2      0x370 ./Source/FreeRTOS-Products/FreeRTOS/timers.o
+                               0x70c2 (size before relaxing)
+ .debug_str     0x00016322      0x2f6 ./Source/cr_startup_lpc176x.o
                                0x3dc2 (size before relaxing)
- .debug_str     0x000164b1      0x156 ./Source/main.o
-                               0x9fa9 (size before relaxing)
- .debug_str     0x00016607      0x48c ./Source/pwmctrl.o
-                               0xfacd (size before relaxing)
- .debug_str     0x00016a93     0x1773 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_str     0x00016618      0x177 ./Source/main.o
+                               0xa035 (size before relaxing)
+ .debug_str     0x0001678f      0x74c ./Source/pwmctrl.o
+                               0xff04 (size before relaxing)
+ .debug_str     0x00016edb      0x671 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+                               0xa5a1 (size before relaxing)
+ .debug_str     0x0001754c     0x14de Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
                                0xc589 (size before relaxing)
- .debug_str     0x00018206       0x35 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_str     0x00018a2a       0x35 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
                                0x5e4b (size before relaxing)
- .debug_str     0x0001823b       0xef Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_str     0x00018a5f       0xef Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
                                0x84c9 (size before relaxing)
- .debug_str     0x0001832a      0x172 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_str     0x00018b4e      0x172 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
                                0xc420 (size before relaxing)
- .debug_str     0x0001849c      0x6ad Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_str     0x00018cc0      0x6ad Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
                                0xd2c9 (size before relaxing)
- .debug_str     0x00018b49       0xc7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_str     0x0001936d       0xc7 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
                                0x9251 (size before relaxing)
- .debug_str     0x00018c10      0x30b Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_str     0x00019434      0x30b Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                0x8058 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -3888,6 +3905,7 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .comment       0x00000000       0x71 ./Source/cr_startup_lpc176x.o
  .comment       0x00000000       0x71 ./Source/main.o
  .comment       0x00000000       0x71 ./Source/pwmctrl.o
+ .comment       0x00000000       0x71 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .comment       0x00000000       0x71 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .comment       0x00000000       0x71 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
  .comment       0x00000000       0x71 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
@@ -3969,91 +3987,93 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .ARM.attributes
                 0x00000363       0x33 ./Source/pwmctrl.o
  .ARM.attributes
-                0x00000396       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+                0x00000396       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
  .ARM.attributes
-                0x000003c9       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+                0x000003c9       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
  .ARM.attributes
-                0x000003fc       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+                0x000003fc       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
  .ARM.attributes
-                0x0000042f       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+                0x0000042f       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
  .ARM.attributes
-                0x00000462       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+                0x00000462       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
  .ARM.attributes
-                0x00000495       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+                0x00000495       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
  .ARM.attributes
-                0x000004c8       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x000004c8       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
  .ARM.attributes
-                0x000004fb       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(_cr__main.o)
+                0x000004fb       0x33 Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .ARM.attributes
-                0x0000052e       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcpy.o)
+                0x0000052e       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(_cr__main.o)
  .ARM.attributes
-                0x00000561       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                0x00000561       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcpy.o)
  .ARM.attributes
-                0x00000594       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x00000594       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
  .ARM.attributes
-                0x000005c7       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+                0x000005c7       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
  .ARM.attributes
-                0x000005fa       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
+                0x000005fa       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
  .ARM.attributes
-                0x0000062d       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
+                0x0000062d       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
  .ARM.attributes
-                0x00000660       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
+                0x00000660       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
  .ARM.attributes
-                0x00000693       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcmp.o)
+                0x00000693       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
  .ARM.attributes
-                0x000006c6       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
+                0x000006c6       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcmp.o)
  .ARM.attributes
-                0x000006f9       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
+                0x000006f9       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
  .ARM.attributes
-                0x0000072c       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
+                0x0000072c       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
  .ARM.attributes
-                0x0000075f       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
+                0x0000075f       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
  .ARM.attributes
-                0x00000792       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
+                0x00000792       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
  .ARM.attributes
-                0x000007c5       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
+                0x000007c5       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
  .ARM.attributes
-                0x000007f8       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x000007f8       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
  .ARM.attributes
-                0x0000082b       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
+                0x0000082b       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
  .ARM.attributes
-                0x0000085e       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
+                0x0000085e       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
  .ARM.attributes
-                0x00000891       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
+                0x00000891       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
  .ARM.attributes
-                0x000008c4       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
+                0x000008c4       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
  .ARM.attributes
-                0x000008f7       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
+                0x000008f7       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
  .ARM.attributes
-                0x0000092a       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
+                0x0000092a       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
  .ARM.attributes
-                0x0000095d       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
+                0x0000095d       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
  .ARM.attributes
-                0x00000990       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_sbrk.o)
+                0x00000990       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
  .ARM.attributes
-                0x000009c3       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
+                0x000009c3       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_sbrk.o)
  .ARM.attributes
-                0x000009f6       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_check_heap.o)
+                0x000009f6       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
  .ARM.attributes
-                0x00000a29       0x21 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00000a29       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_cr_check_heap.o)
  .ARM.attributes
-                0x00000a4a       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_appexit.o)
+                0x00000a5c       0x21 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
  .ARM.attributes
-                0x00000a7d       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_close.o)
+                0x00000a7d       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_appexit.o)
  .ARM.attributes
-                0x00000ab0       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_flen.o)
+                0x00000ab0       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_close.o)
  .ARM.attributes
-                0x00000ae3       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_istty.o)
+                0x00000ae3       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_flen.o)
  .ARM.attributes
-                0x00000b16       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_remove.o)
+                0x00000b16       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_istty.o)
  .ARM.attributes
-                0x00000b49       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_seek.o)
+                0x00000b49       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_remove.o)
  .ARM.attributes
-                0x00000b7c       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_tmpnam.o)
+                0x00000b7c       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_seek.o)
  .ARM.attributes
-                0x00000baf       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_write.o)
+                0x00000baf       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_tmpnam.o)
+ .ARM.attributes
+                0x00000be2       0x33 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_nohost.a(__sys_write.o)
 
-.debug_frame    0x00000000     0x1c08
+.debug_frame    0x00000000     0x1fc4
  .debug_frame   0x00000000       0x68 ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o
  .debug_frame   0x00000068      0x100 ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o
  .debug_frame   0x00000168       0x28 ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o
@@ -4071,11 +4091,12 @@ OUTPUT(FreeRTOS-V2Bot.axf elf32-littlearm)
  .debug_frame   0x00000d90      0x18c ./Source/FreeRTOS-Products/FreeRTOS/timers.o
  .debug_frame   0x00000f1c      0x104 ./Source/cr_startup_lpc176x.o
  .debug_frame   0x00001020       0x84 ./Source/main.o
- .debug_frame   0x000010a4       0xa0 ./Source/pwmctrl.o
- .debug_frame   0x00001144      0x2d0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
- .debug_frame   0x00001414       0x2c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
- .debug_frame   0x00001440       0xbc Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
- .debug_frame   0x000014fc      0x24c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
- .debug_frame   0x00001748      0x3a0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
- .debug_frame   0x00001ae8       0xe4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
- .debug_frame   0x00001bcc       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x000010a4       0xe4 ./Source/pwmctrl.o
+ .debug_frame   0x00001188      0x378 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_gpio.o)
+ .debug_frame   0x00001500      0x2d0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_i2c.o)
+ .debug_frame   0x000017d0       0x2c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_libcfg_default.o)
+ .debug_frame   0x000017fc       0xbc Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_pinsel.o)
+ .debug_frame   0x000018b8      0x24c Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_ssp.o)
+ .debug_frame   0x00001b04      0x3a0 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_uart.o)
+ .debug_frame   0x00001ea4       0xe4 Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug\liblpc17xx.cmsis.driver.library.a(lpc17xx_clkpwr.o)
+ .debug_frame   0x00001f88       0x3c Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)

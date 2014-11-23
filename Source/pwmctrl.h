@@ -28,7 +28,7 @@ void vUARTStart( void );
 void prvParseCommand( const int8_t * pcUartInput );
 
 /* Creates the task for the PWM controller. */
-void vPWMControllerStart( void );
+void vArmControllerTaskStart( void );
 
 /* Waits for the command and parameter queues, the sends PWM signals based
  * on the command and parameters. At the moment, the implemented commands are:
@@ -38,6 +38,13 @@ void vPWMControllerStart( void );
  * [p]osition: transmits, via UART3, the a character array with the position of the
  * 			   servo in decimal.
  */
+
+void prvInitPWM();
+
 void prvPWMController( void *pvrParamters );
+
+void vPlatformControllerTaskStart( void );
+
+void prvSPIController( void *prvParameters );
 
 #endif /* UART_H_ */

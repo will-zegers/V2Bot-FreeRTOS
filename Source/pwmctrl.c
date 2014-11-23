@@ -1,6 +1,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include "lpc17xx_gpio.h"
+
 /* FreeRTOS includes. */
 #include "FreeRTOS.h"
 #include "task.h"
@@ -14,8 +16,8 @@
 /* Default positions for the servos */
 #define DEFAULT_POS_1	1500
 #define DEFAULT_POS_2	1650
-#define DEFAULT_POS_3	1900
-#define DEFAULT_POS_4	1500
+//#define DEFAULT_POS_3	1950	// Currently not used
+#define DEFAULT_POS_4	1950
 
 /* Dimensions the buffer into which input characters are placed. */
 #define pwmctrlMAX_INPUT_SIZE		50
@@ -32,16 +34,17 @@
 #define pwmctrlSTOP					'\n'
 #define pwmctrlDELIM				' '
 
-static xTaskHandle xUARTReceiverTask = NULL, xPWMControllerTask = NULL;
+static xTaskHandle xUARTReceiverTask = NULL, xPWMControllerTask = NULL, xSPIControllerTask = NULL;
 
-static Peripheral_Descriptor_t xUART3 = NULL;
+static Peripheral_Descriptor_t xUART3 = NULL, xSPIPort = NULL;
 
-xQueueHandle xParameterQueue = 0, xCommandQueue = 0;
+xQueueHandle xPWMQueue = 0, xOpCodeQueue = 0, xSPIQueue = 0;
 
 void vUARTStart( void ) {
 
-	xCommandQueue = xQueueCreate(4, sizeof( uint8_t ) );
-	xParameterQueue = xQueueCreate(1, 4 * sizeof( int16_t ) );
+	xOpCodeQueue = xQueueCreate(4, sizeof( uint8_t ) );
+	xPWMQueue = xQueueCreate(1, 4 * sizeof( int8_t ) );
+	xSPIQueue = xQueueCreate(1, 4 * sizeof( int8_t ) );
 
 	xTaskCreate ( prvUARTReceiver,
 				( const int8_t * const ) "UARTRx",
@@ -106,33 +109,35 @@ void prvUARTReceiver( void * prvParameters ) {
 			cInputIndex = 0;
 			memset( cInputString, 0x00, pwmctrlMAX_INPUT_SIZE );
 		} else {
-			if( ( ' ' <= cRxedChar ) && ( '~' >= cRxedChar ) ) {
+			//if( ( ' ' <= cRxedChar ) && ( '~' >= cRxedChar ) ) {
 				if( cInputIndex < pwmctrlMAX_INPUT_SIZE ) {
 					cInputString[ cInputIndex ] = cRxedChar;
 					cInputIndex++;
 				}
-			}
+			//}
 		}
 	}
 }
 
 void prvParseCommand( const int8_t * pcUartInput ) {
 	uint8_t ucOpCode, ucSPI, ucCheckSum;
-	int16_t sPWM[4];
+	int8_t sPWM[3];
 
 	ucOpCode = pcUartInput[0];
-	sPWM[0] = 16*pcUartInput[1] + pcUartInput[2];
-	sPWM[1] = 16*pcUartInput[3] + pcUartInput[4];
-	sPWM[2] = 16*pcUartInput[5] + pcUartInput[6];
-	sPWM[3] = 16*pcUartInput[7] + pcUartInput[8];
-	ucSPI = pcUartInput[9];
-	ucCheckSum = ucOpCode ^ sPWM[0] ^ sPWM[1] ^ sPWM[2] ^ sPWM[3] ^ ucSPI;
+	sPWM[0] = pcUartInput[1];
+	sPWM[1] = pcUartInput[2];
+	sPWM[2] = pcUartInput[3];
+	ucSPI = pcUartInput[4];
 
-	xQueueSend( xCommandQueue, &ucOpCode, portMAX_DELAY );
-	xQueueSend( xParameterQueue, sPWM, portMAX_DELAY );
+	( void ) ucCheckSum;
+//	if ( ucCheckSum == ucOpCode ^ sPWM[0] ^ sPWM[1] ^ sPWM[2] ^ sPWM[3] ^ ucSPI ) {
+		xQueueSend( xOpCodeQueue, &ucOpCode, portMAX_DELAY );
+		xQueueSend( xPWMQueue, sPWM, portMAX_DELAY );
+		xQueueSend( xSPIQueue, &ucSPI, portMAX_DELAY );
+//	}
 }
 
-void vPWMControllerStart( void ) {
+void vArmControllerTaskStart( void ) {
 
 	xTaskCreate ( prvPWMController,
 				( const int8_t * const ) "PWMCtrl",
@@ -145,66 +150,21 @@ void vPWMControllerStart( void ) {
 void prvPWMController( void *prvParameters ) {
 
 	uint8_t cCommand, cServoPosition[5];
-	int16_t sParameters[4];
+	int8_t sParameters[3];
 
 	( void ) prvParameters;
 
-	/* Begin by intitializing the PWM pins. */
-
-	/* Explicitly power the PWM port. It's powered by default, but just
-	 * to be safe
-	 */
-	LPC_SC->PCONP |= ( 1 << 6 );
-
-	/* Reset the timer counter and prescale counter */
-	LPC_PWM1->TCR = ( 1 << 1 );
-
-	/* Clear any interrupts on PWM. */
-	LPC_PWM1->IR = 0xff;
-
-	/* Set the prescale counter register to have a resolution of 1us. */
-	LPC_PWM1->PR = SystemCoreClock / ( 4 * 1000000 ) - 1;
-
-	/* Set pins 2.0, 2.1, 2.2, and 2.3 to operate in PWM mode. */
-	LPC_PINCON->PINSEL4 &= ~( 0xf << 0 );
-	LPC_PINCON->PINSEL4 |= ( 1 << 0 ) | ( 1 << 2 ) | ( 1 << 4 ) | ( 1 << 6 );
-	/* Disable pull-up resistors on the PWM pins. */
-	LPC_PINCON->PINMODE4 &= ~( 0xff << 0 );
-	LPC_PINCON->PINMODE4 |= ( 2 << 0 ) | ( 2 << 2 ) | ( 2 << 4 ) | ( 2 << 6 );
-
-	/* Using a period of 50MHz, with in interrupt occuring 1ms before the next period. */
-	LPC_PWM1->MR0 = 20000;
-	LPC_PWM1->MR5 = 19000;
-
-	// TODO: Calibarate the physical servos, and determine what to set as their default
-	// positions
-	/* Upon intializtion, set the servos into their default positions. */
-	LPC_PWM1->MR1 = DEFAULT_POS_1;
-	LPC_PWM1->MR2 = DEFAULT_POS_2;
-	LPC_PWM1->MR3 = DEFAULT_POS_3;
-	LPC_PWM1->MR4 = DEFAULT_POS_4;
-
-	/* Latch the registers to move the servos. */
-	LPC_PWM1->LER = 0x27;
-
-	/* Reset PWMMR3, and set interrupts on register 5. */
-	LPC_PWM1->MCR = ( 1 << 1 ) | ( 1 << 15 );
-
-	/* Enable the outputs on PWMMR1, PWMMR2, PWMMR3, & PWMMR4. */
-	LPC_PWM1->PCR = ( 1 << 9 ) | ( 1 << 10 ) | ( 1 << 11 ) | ( 1 << 12 );
-
-	/* Enable the timer and prescale counters, and enable PWM mode. */
-	LPC_PWM1->TCR = (1 << 0) | (1 << 3);
+	prvInitPWM();
 
 	for(;;) {
-		xQueueReceive( xCommandQueue, &cCommand, portMAX_DELAY );
+		xQueueReceive( xOpCodeQueue, &cCommand, portMAX_DELAY );
 
-		xQueueReceive( xParameterQueue, sParameters, portMAX_DELAY );
+		xQueueReceive( xPWMQueue, sParameters, portMAX_DELAY );
 
 #if pwmctrlDEBUG
-			uint8_t buffer[8], i = 0;
+			uint16_t buffer[8], i = 0;
 
-			while(i < 4) {
+			while(i < 3) {
 				itoa( sParameters[i], buffer, 10);
 				if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
 					FreeRTOS_write( xUART3, buffer, strlen( buffer ) );
@@ -216,58 +176,31 @@ void prvPWMController( void *prvParameters ) {
 			}
 #endif
 		/* An 'a' command sets the servo to an absolute position between 1000 and 2000. */
-		if ( 'a' == cCommand ) {
-			if ( 2000 < sParameters[0] )
-				sParameters[0] = 2000;
-			else if ( 1000 > sParameters[0] )
-				sParameters[0] = 1000;
 
+		if ( 'r' == cCommand || 'a' == cCommand ) {
+			if ( 'r' == cCommand ) {
+				LPC_PWM1->MR1 += 8 * sParameters[0];
+				LPC_PWM1->MR2 += 8 * sParameters[1];
+				LPC_PWM1->MR4 += 8 * sParameters[2];
+			} else if ( 'a' == cCommand ) {
+				LPC_PWM1->MR1 = 1000 + (8 * sParameters[0] );
+				LPC_PWM1->MR2 = 1000 + (8 * sParameters[1] );
+				LPC_PWM1->MR4 = 1000 + (8 * sParameters[2] );
 
-			if ( 1600 < sParameters[1] )
-				sParameters[1] = 1600;
-			else if ( 1350 > sParameters[1] )
-				sParameters[1] = 1350;
+			}
+			LPC_PWM1->MR1 = ( 2000 < LPC_PWM1->MR1 ) ? 2000 :
+							( 1000 > LPC_PWM1->MR1 ) ? 1000 :
+							LPC_PWM1->MR1;
 
-			if ( 1900 < sParameters[2] )
-				sParameters[2] = 1900;
-			else if ( 1300 > sParameters[2] )
-				sParameters[2] = 1400;
+			LPC_PWM1->MR2 = ( 1650 < LPC_PWM1->MR2 ) ? 1600 :
+							( 1350 > LPC_PWM1->MR2 ) ? 1350 :
+							LPC_PWM1->MR2;
 
-			LPC_PWM1->MR1 = sParameters[0];
-			LPC_PWM1->MR2 = sParameters[1];
-			LPC_PWM1->MR3 = sParameters[2];
-//			LPC_PWM1->MR4 = sParameters[3];
+			LPC_PWM1->MR4 = ( 1950 < LPC_PWM1->MR4 ) ? 1900 :
+							( 1400 > LPC_PWM1->MR4 ) ? 1400 :
+							LPC_PWM1->MR4;
 
-		/* An 'r' command moves the servos in a clockwise (positive numbers) or counter-
-		clockwise (negative numbers) relative to their current position */
-		} else if ('r' == cCommand ) {
-			if ( 2000 < LPC_PWM1->MR1 + sParameters[0] )
-				LPC_PWM1->MR1 = 2000;
-			else if ( 1000 > LPC_PWM1->MR1 + sParameters[0] )
-				LPC_PWM1->MR1 = 1000;
-			else
-				LPC_PWM1->MR1 += sParameters[0];
-
-			if ( 1650 < LPC_PWM1->MR2 + sParameters[0] )
-				LPC_PWM1->MR2 = 1650;
-			else if ( 1400 > LPC_PWM1->MR2 + sParameters[0] )
-				LPC_PWM1->MR2 = 1400;
-			else
-				LPC_PWM1->MR2 += sParameters[1];
-
-			if ( 1900 < LPC_PWM1->MR3 + sParameters[0] )
-				LPC_PWM1->MR3 = 1900;
-			else if ( 1300 > LPC_PWM1->MR3 + sParameters[0] )
-				LPC_PWM1->MR3 = 1300;
-			else
-				LPC_PWM1->MR3 += sParameters[2];
-
-//			if ( 2000 < LPC_PWM1->MR4 + sParameters[0] )
-//				LPC_PWM1->MR4 = 2000;
-//			else if ( 1000 > LPC_PWM1->MR4 + sParameters[0] )
-//				LPC_PWM1->MR4 = 1000;
-//			else
-//				LPC_PWM1->MR4 = sParameters[3];
+			LPC_PWM1->LER = ( 1 << 1 ) | ( 1 << 2 ) | ( 1 << 4);
 
 		/* The 'p' command return the position of the selected servo. */
 		} else if ('p' == cCommand ) {
@@ -276,15 +209,121 @@ void prvPWMController( void *prvParameters ) {
 			else if ( sParameters[1] )
 				itoa( LPC_PWM1->MR2, cServoPosition, 16);
 			else if ( sParameters[2] )
-				itoa( LPC_PWM1->MR3, cServoPosition, 16);
+				itoa( LPC_PWM1->MR4, cServoPosition, 16);
 			else
 				itoa( 0, cServoPosition, 16);
 			if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
 				FreeRTOS_write( xUART3, cServoPosition, strlen( cServoPosition ) );
 			}
 		}
-		LPC_PWM1->LER = ( 1 << 1 ) | ( 1 << 2 ) | ( 1 << 3 ) | ( 1 << 4 );
-		xQueueReset( xCommandQueue );
-		xQueueReset( xParameterQueue );
+		xQueueReset( xOpCodeQueue );
+		xQueueReset( xPWMQueue );
 	}
 }
+
+void prvInitPWM( void ) {
+
+	/* Begin by intitializing the PWM pins. */
+
+		/* Explicitly power the PWM port. It's powered by default, but just
+		 * to be safe
+		 */
+		LPC_SC->PCONP |= ( 1 << 6 );
+
+		/* Reset the timer counter and prescale counter */
+		LPC_PWM1->TCR = ( 1 << 1 );
+
+		/* Clear any interrupts on PWM. */
+		LPC_PWM1->IR = 0xff;
+
+		/* Set the prescale counter register to have a resolution of 1us. */
+		LPC_PWM1->PR = SystemCoreClock / ( 4 * 1000000 ) - 1;
+
+		/* Set pins 2.0, 2.1, 2.2, and 2.3 to operate in PWM mode. */
+		LPC_PINCON->PINSEL4 &= ~( 0xf << 0 );
+		LPC_PINCON->PINSEL4 |= ( 1 << 0 ) | ( 1 << 2 ) | ( 1 << 4 ) | ( 1 << 6 );
+		/* Disable pull-up resistors on the PWM pins. */
+		LPC_PINCON->PINMODE4 &= ~( 0xff << 0 );
+		LPC_PINCON->PINMODE4 |= ( 2 << 0 ) | ( 2 << 2 ) | ( 2 << 4 ) | ( 2 << 6 );
+
+		/* Using a period of 50MHz, with in interrupt occuring 1ms before the next period. */
+		LPC_PWM1->MR0 = 20000;
+		LPC_PWM1->MR5 = 19000;
+
+		// TODO: Calibarate the physical servos, and determine what to set as their default
+		// positions
+		/* Upon intializtion, set the servos into their default positions. */
+		LPC_PWM1->MR1 = DEFAULT_POS_1;
+		LPC_PWM1->MR2 = DEFAULT_POS_2;
+		// LPC_PWM1->MR3 = DEFAULT_POS_3; not used
+		LPC_PWM1->MR4 = DEFAULT_POS_4;
+
+		/* Latch the registers to move the servos. */
+		LPC_PWM1->LER = 0x27;
+
+		/* Reset PWMMR3, and set interrupts on register 5. */
+		LPC_PWM1->MCR = ( 1 << 1 ) | ( 1 << 15 );
+
+		/* Enable the outputs on PWMMR1, PWMMR2, PWMMR3, & PWMMR4. */
+		LPC_PWM1->PCR = ( 1 << 9 ) | ( 1 << 10 ) | ( 1 << 11 ) | ( 1 << 12 );
+
+		/* Enable the timer and prescale counters, and enable PWM mode. */
+		LPC_PWM1->TCR = (1 << 0) | (1 << 3);
+}
+
+void vPlatformControllerTaskStart( void ) {
+
+	xTaskCreate ( prvSPIController,
+				( const int8_t * const ) "SPICtrl",
+				configSPI_CONTROLLER_STACK_SIZE,
+				NULL,
+				configSPI_CONTROLLER_TASK_PRIORITY,
+				&xSPIControllerTask);
+}
+
+void prvSPIController( void *prvParameters ) {
+	const uint32_t xClockSpeed = 1000000UL;
+	uint8_t ucSpiByte;
+
+	( void ) prvParameters;
+
+	/* Configure the IO pin used for the 7 segment display CS line. */
+	GPIO_SetDir( boardSPI_CS_PORT, boardSPI_CS_PIN, boardGPIO_OUTPUT );
+	boardSPI_DEASSERT_CS();
+
+	/* Ensure the OLED, which is on the same SSP bus, is not selected. */
+	GPIO_SetDir( boardOLED_CS_PORT, boardOLED_CS_PIN, boardGPIO_OUTPUT );
+	boardOLED_DEASSERT_CS();
+
+
+	/* Open the SSP port used for writing to the 7 segment display.  The second
+	parameter (ulFlags) is not used in this case.  By default, the SSP will open
+	in SPI/polling mode. */
+	xSPIPort = FreeRTOS_open( boardSPI_SSP_PORT, ( uint32_t ) pwmctrlPARAMETER_NOT_USED );
+	configASSERT( xSPIPort );
+
+	/* Decrease the bit rate a bit, just to demonstrate an ioctl function being
+	used.  By default it was 1MHz, this sets it to 500KHz. */
+	FreeRTOS_ioctl( xSPIPort, ioctlSET_SPEED, ( void * ) xClockSpeed );
+
+	/* At the time of writing, by default, the SSP will open all its parameters
+	set correctly for communicating with the 7-segment display, but explicitly
+	set all	parameters anyway, in case the defaults	changes in the future. */
+	FreeRTOS_ioctl( xSPIPort, ioctlSET_SPI_DATA_BITS, 		( void * ) boardSSP_DATABIT_8 );
+	FreeRTOS_ioctl( xSPIPort, ioctlSET_SPI_CLOCK_PHASE, 	( void * ) boardSPI_SAMPLE_ON_LEADING_EDGE_CPHA_0 );
+	FreeRTOS_ioctl( xSPIPort, ioctlSET_SPI_CLOCK_POLARITY, 	( void * ) boardSPI_CLOCK_BASE_VALUE_CPOL_0 );
+	FreeRTOS_ioctl( xSPIPort, ioctlSET_SPI_MODE, 			( void * ) boardSPI_MASTER_MODE );
+	FreeRTOS_ioctl( xSPIPort, ioctlSET_SSP_FRAME_FORMAT, 	( void * ) boardSSP_FRAME_SPI );
+
+	for( ;; )
+	{
+		xQueueReceive( xSPIQueue, &ucSpiByte, portMAX_DELAY );
+
+		boardSPI_ASSERT_CS();
+		FreeRTOS_write( xSPIPort, &ucSpiByte, sizeof( uint8_t ) );
+		boardSPI_DEASSERT_CS();
+
+		xQueueReset( xSPIQueue );
+	}
+}
+
