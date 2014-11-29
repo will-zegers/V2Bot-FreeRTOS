@@ -39,7 +39,7 @@ all: FreeRTOS-V2Bot.axf
 FreeRTOS-V2Bot.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"Z:\LPCXpresso\FreeRTOS+IO WS\lpc17xx.cmsis.driver.library\Debug" -L"Z:\LPCXpresso\FreeRTOS+IO WS\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map=FreeRTOS-V2Bot.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "FreeRTOS-Plus-Demo-1_Debug.ld" -o "FreeRTOS-V2Bot.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/media/will/Data/LPCXpresso/FreeRTOS+IO WS/lpc17xx.cmsis.driver.library/Debug" -L"/media/will/Data/LPCXpresso/FreeRTOS+IO WS/CMSISv2p00_LPC17xx/Debug" -Xlinker -Map=FreeRTOS-V2Bot.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "FreeRTOS-Plus-Demo-1_Debug.ld" -o "FreeRTOS-V2Bot.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

@@ -45,6 +45,6 @@ void prvPWMController( void *pvrParamters );
 
 void vPlatformControllerTaskStart( void );
 
-void prvSPIController( void *prvParameters );
+void prvPlatformController( void *prvParameters );
 
 #endif /* UART_H_ */

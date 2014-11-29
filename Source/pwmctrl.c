@@ -12,12 +12,13 @@
 #include "pwmctrl.h"
 
 #define pwmctrlDEBUG	1
+#define pwmctrlSPI		0
 
 /* Default positions for the servos */
 #define DEFAULT_POS_1	1500
-#define DEFAULT_POS_2	1650
+#define DEFAULT_POS_2	1350
 //#define DEFAULT_POS_3	1950	// Currently not used
-#define DEFAULT_POS_4	1950
+#define DEFAULT_POS_4	1050
 
 /* Dimensions the buffer into which input characters are placed. */
 #define pwmctrlMAX_INPUT_SIZE		50
@@ -34,17 +35,21 @@
 #define pwmctrlSTOP					'\n'
 #define pwmctrlDELIM				' '
 
-static xTaskHandle xUARTReceiverTask = NULL, xPWMControllerTask = NULL, xSPIControllerTask = NULL;
+static xTaskHandle xUARTReceiverTask = NULL, xPWMControllerTask = NULL, xGPIOControllerTask = NULL;
+//static xTaskHandle xSPIControllerTask = NULL;
 
-static Peripheral_Descriptor_t xUART3 = NULL, xSPIPort = NULL;
+static Peripheral_Descriptor_t xUART3 = NULL;
+// static Peripheral_Descriptor_t xSPIPort = NULL;
 
-xQueueHandle xPWMQueue = 0, xOpCodeQueue = 0, xSPIQueue = 0;
+xQueueHandle xPWMQueue = 0, xOpCodeQueue = 0, xPlatformGPIOQueue = 0;
+//xQueueHandle xSPIQueue = 0;
 
 void vUARTStart( void ) {
 
 	xOpCodeQueue = xQueueCreate(4, sizeof( uint8_t ) );
 	xPWMQueue = xQueueCreate(1, 4 * sizeof( int8_t ) );
-	xSPIQueue = xQueueCreate(1, 4 * sizeof( int8_t ) );
+	xPlatformGPIOQueue = xQueueCreate(1, 4 * sizeof( uint8_t ) );
+//	xSPIQueue = xQueueCreate(1, 4 * sizeof( int8_t ) );
 
 	xTaskCreate ( prvUARTReceiver,
 				( const int8_t * const ) "UARTRx",
@@ -109,31 +114,30 @@ void prvUARTReceiver( void * prvParameters ) {
 			cInputIndex = 0;
 			memset( cInputString, 0x00, pwmctrlMAX_INPUT_SIZE );
 		} else {
-			//if( ( ' ' <= cRxedChar ) && ( '~' >= cRxedChar ) ) {
-				if( cInputIndex < pwmctrlMAX_INPUT_SIZE ) {
-					cInputString[ cInputIndex ] = cRxedChar;
-					cInputIndex++;
-				}
-			//}
+			if( cInputIndex < pwmctrlMAX_INPUT_SIZE ) {
+				cInputString[ cInputIndex ] = cRxedChar;
+				cInputIndex++;
+			}
 		}
 	}
 }
 
 void prvParseCommand( const int8_t * pcUartInput ) {
-	uint8_t ucOpCode, ucSPI, ucCheckSum;
+	uint8_t ucOpCode, ucGPIO, ucCheckSum;
 	int8_t sPWM[3];
 
 	ucOpCode = pcUartInput[0];
-	sPWM[0] = pcUartInput[1];
-	sPWM[1] = pcUartInput[2];
-	sPWM[2] = pcUartInput[3];
-	ucSPI = pcUartInput[4];
+	sPWM[0]  = pcUartInput[1];
+	sPWM[1]  = pcUartInput[2];
+	sPWM[2]  = pcUartInput[3];
+	ucGPIO   = pcUartInput[4];
 
 	( void ) ucCheckSum;
 //	if ( ucCheckSum == ucOpCode ^ sPWM[0] ^ sPWM[1] ^ sPWM[2] ^ sPWM[3] ^ ucSPI ) {
 		xQueueSend( xOpCodeQueue, &ucOpCode, portMAX_DELAY );
 		xQueueSend( xPWMQueue, sPWM, portMAX_DELAY );
-		xQueueSend( xSPIQueue, &ucSPI, portMAX_DELAY );
+		xQueueSend( xPlatformGPIOQueue, &ucGPIO, portMAX_DELAY );
+//		xQueueSend( xSPIQueue, &ucSPI, portMAX_DELAY );
 //	}
 }
 
@@ -183,21 +187,21 @@ void prvPWMController( void *prvParameters ) {
 				LPC_PWM1->MR2 += 8 * sParameters[1];
 				LPC_PWM1->MR4 += 8 * sParameters[2];
 			} else if ( 'a' == cCommand ) {
-				LPC_PWM1->MR1 = 1000 + (8 * sParameters[0] );
-				LPC_PWM1->MR2 = 1000 + (8 * sParameters[1] );
-				LPC_PWM1->MR4 = 1000 + (8 * sParameters[2] );
+				LPC_PWM1->MR1 = 1000 + ( 8 * sParameters[0] );
+				LPC_PWM1->MR2 = 1000 + ( 8 * sParameters[1] );
+				LPC_PWM1->MR4 = 1000 + ( 8 * sParameters[2] );
 
 			}
 			LPC_PWM1->MR1 = ( 2000 < LPC_PWM1->MR1 ) ? 2000 :
 							( 1000 > LPC_PWM1->MR1 ) ? 1000 :
 							LPC_PWM1->MR1;
 
-			LPC_PWM1->MR2 = ( 1650 < LPC_PWM1->MR2 ) ? 1600 :
+			LPC_PWM1->MR2 = ( 1650 < LPC_PWM1->MR2 ) ? 1650 :
 							( 1350 > LPC_PWM1->MR2 ) ? 1350 :
 							LPC_PWM1->MR2;
 
-			LPC_PWM1->MR4 = ( 1950 < LPC_PWM1->MR4 ) ? 1900 :
-							( 1400 > LPC_PWM1->MR4 ) ? 1400 :
+			LPC_PWM1->MR4 = ( 1500 < LPC_PWM1->MR4 ) ? 1500 :
+							( 1050 > LPC_PWM1->MR4 ) ? 1050 :
 							LPC_PWM1->MR4;
 
 			LPC_PWM1->LER = ( 1 << 1 ) | ( 1 << 2 ) | ( 1 << 4);
@@ -273,14 +277,72 @@ void prvInitPWM( void ) {
 
 void vPlatformControllerTaskStart( void ) {
 
-	xTaskCreate ( prvSPIController,
-				( const int8_t * const ) "SPICtrl",
+	xTaskCreate ( prvPlatformController,
+				( const int8_t * const ) "GPIOCtrl",
 				configSPI_CONTROLLER_STACK_SIZE,
 				NULL,
 				configSPI_CONTROLLER_TASK_PRIORITY,
-				&xSPIControllerTask);
+				&xGPIOControllerTask);
 }
 
+void prvPlatformController( void *prvParameters ) {
+
+	uint8_t ucPlatformControl;
+
+	( void ) prvParameters;
+
+	LPC_GPIO2->FIODIR |= ( 1 << 6 )  | ( 1 << 7 )  | ( 1 << 8 ); // #1 Forward - Reverse - EN
+	LPC_GPIO2->FIODIR |= ( 1 << 10 ) | ( 1 << 11 ) | ( 1 << 12); // #2 Forward - Reverse - EN
+
+	for( ;; ) {
+		xQueueReceive( xPlatformGPIOQueue, &ucPlatformControl, portMAX_DELAY );
+
+		/* Send the platform [F]orward by sending forward output to motors 1 and 2. */
+		if ( 'F' == ucPlatformControl ) {
+			LPC_GPIO2->FIOCLR = ( 1 << 7 );
+			LPC_GPIO2->FIOSET = ( 1 << 6 ) | ( 1 << 8 );
+			LPC_GPIO2->FIOCLR = ( 1 << 11);
+			LPC_GPIO2->FIOSET = ( 1 << 10 ) | ( 1 << 12 );
+		}
+		/* Send the platform in re[V]erse by sending reverse output to motors 1 and 2. */
+		else if ( 'V' == ucPlatformControl ) {
+			LPC_GPIO2->FIOCLR = ( 1 << 6 );
+			LPC_GPIO2->FIOSET = ( 1 << 7 ) | ( 1 << 8 );
+			LPC_GPIO2->FIOCLR = ( 1 << 10);
+			LPC_GPIO2->FIOSET = ( 1 << 11 ) | ( 1 << 12 );
+		}
+		/* Turn the platform [L]eft by forwarding motor 2, reversing motor. 1 */
+		else if ( 'L' == ucPlatformControl ) {
+			LPC_GPIO2->FIOCLR = ( 1 << 6 );
+			LPC_GPIO2->FIOSET = ( 1 << 7 ) | ( 1 << 8 );
+			LPC_GPIO2->FIOCLR = ( 1 << 11 );
+			LPC_GPIO2->FIOSET = ( 1 << 10 ) | ( 1 << 12 );
+		}
+		/* Turn the platform [R]ight by forwarding motor 1, reversing motor. 2 */
+		else if ( 'R' == ucPlatformControl ) {
+			LPC_GPIO2->FIOCLR = ( 1 << 7 );
+			LPC_GPIO2->FIOSET = ( 1 << 6 ) | ( 1 << 8 );
+			LPC_GPIO2->FIOCLR = ( 1 << 10 );
+			LPC_GPIO2->FIOSET = ( 1 << 11 ) | ( 1 << 12 );
+		}
+
+		/* [S]top motors 1 & 2, bring the platform to a halt. */
+		else if ( 'S' == ucPlatformControl ) {
+			LPC_GPIO2->FIOSET = ( 1 << 8 );
+			LPC_GPIO2->FIOCLR = ( 1 << 6 ) | ( 1 << 7 );
+			LPC_GPIO2->FIOSET = ( 1 << 12 );
+			LPC_GPIO2->FIOCLR = ( 1 << 10 ) | ( 1 << 11 );
+
+		/* A 0x00 byte continues the current operation of the motors, anything else is
+		 * an invalid command. Clear ENs and wait for next command */
+		} else if ( 0x00 != ucPlatformControl ) {
+			LPC_GPIO2->FIOCLR = ( 1 << 8 ) | ( 1 << 12 );
+		}
+		xQueueReset( xPlatformGPIOQueue );
+	}
+}
+
+#if pwmctrlSPI
 void prvSPIController( void *prvParameters ) {
 	const uint32_t xClockSpeed = 1000000UL;
 	uint8_t ucSpiByte;
@@ -326,4 +388,5 @@ void prvSPIController( void *prvParameters ) {
 		xQueueReset( xSPIQueue );
 	}
 }
+#endif
 
