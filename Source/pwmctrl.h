@@ -21,9 +21,13 @@ void prvUARTReceiver(void * pvParameters);
  */
 void vUARTStart( void );
 
-/* Parses the command string received from UART. Reads the first character
- * as a command letter, followed by storing the rest of the delimited input
- * as parameters to the command.
+/**
+ * prvParseCommand: Upon receiving the newline character, the UART receiver passes the command received to
+ * prvParseCommand. This function takes byte 1 for the command (e.g., 'a' for abs, 'r' for rel), the next three
+ * bytes for respective servo positions - which can be either negative or positive - a single byte to control the
+ * platform via GPIO, and then computes a simple XOR checksum to check for errors in the communications.
+ *
+ * Parameters: pcUartInput: a point to the command string passed from the UART receiver.
  */
 void prvParseCommand( const int8_t * pcUartInput );
 
@@ -39,12 +43,22 @@ void vArmControllerTaskStart( void );
  * 			   servo in decimal.
  */
 
+/**
+ * prvInitPWM(): initializes the PWM pins on the LPC1769
+ */
 void prvInitPWM();
 
-void prvPWMController( void *pvrParamters );
+/* prvArmController: receives the positional command for the arm assembly, and uses parameters passed
+ * through the PWM queue to put the servos into their new positions, moving the arm.
+ */
+void prvArmController( void *pvrParamters );
 
-void vPlatformControllerTaskStart( void );
+/* Starts the controller for the platform */
+void vBaseControllerTaskStart( void );
 
-void prvPlatformController( void *prvParameters );
+/** prvBaseController: receives the movement (i.e., forward, reverse, left, right, stop) for the moving
+ * base platform form the PlatformGPIO Queue, and sets or clear the GPIO pins to drive this movement.
+ */
+void prvBaseController( void *prvParameters );
 
 #endif /* UART_H_ */
