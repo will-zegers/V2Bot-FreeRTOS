@@ -17,31 +17,31 @@ def sendCommand( cmd ):
 def platformValidate( ):
 
    print( "Forward" )
-   sendCommand( '72000000460a' ) # platfrom forward
+   sendCommand( '7200000000460a' ) # platfrom forward
    time.sleep(2)
-   sendCommand( '72000000530a' ) # stop platform
+   sendCommand( '7200000000530a' ) # stop platform
    time.sleep(2)
 
    print( "Right" )
-   sendCommand( '72000000520a' ) # platform turn right
+   sendCommand( '7200000000520a' ) # platform turn right
    time.sleep(2)
-   sendCommand( '72000000530a' ) # stop platform
+   sendCommand( '7200000000530a' ) # stop platform
    time.sleep(2)
 
    print( "Left" )
-   sendCommand( '720000004c0a' ) # platform turn left
+   sendCommand( '72000000004c0a' ) # platform turn left
    time.sleep(2)
-   sendCommand( '72000000530a' ) # stop platform
+   sendCommand( '7200000000530a' ) # stop platform
    time.sleep(2)
 
    print( "Reverse" )
-   sendCommand ('72000000560a' )
+   sendCommand ('7200000000560a' )
    time.sleep(2)
-   sendCommand( '72000000530a' ) # stop platform
+   sendCommand( '7200000000530a' ) # stop platform
    time.sleep(2)
 
 def reset():
-   reset = '613f2b06530a' # reset to default position
+   reset = '617d2b067d530a' # reset to default position
    sendCommand( reset )
    return
 
