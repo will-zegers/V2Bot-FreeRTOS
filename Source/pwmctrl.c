@@ -17,8 +17,8 @@
 /* Default positions for the servos */
 #define DEFAULT_POS_1	1500
 #define DEFAULT_POS_2	1350
-//#define DEFAULT_POS_3	1950	// Currently not used
-#define DEFAULT_POS_4	1050
+#define DEFAULT_POS_3	1050
+#define DEFAULT_POS_4	1500
 
 /* Dimensions the buffer into which input characters are placed. */
 #define pwmctrlMAX_INPUT_SIZE		50
@@ -125,15 +125,17 @@ void prvUARTReceiver( void * prvParameters ) {
 }
 
 void prvParseCommand( const int8_t * pcUartInput ) {
-	uint8_t ucOpCode, ucGPIO, ucCheckSum;
-	int8_t sPWM[3];
+	uint8_t ucOpCode, ucBaseGPIO, ucCheckSum;
+	int8_t sPWM[4];
 
+	// TODO: Implement new parameters for EE
 	/* Grab each byte from the command string */
 	ucOpCode = pcUartInput[0];
 	sPWM[0]  = pcUartInput[1];
 	sPWM[1]  = pcUartInput[2];
 	sPWM[2]  = pcUartInput[3];
-	ucGPIO   = pcUartInput[4];
+	sPWM[3]  = pcUartInput[4];
+    ucBaseGPIO   = pcUartInput[5];
 
 	( void ) ucCheckSum;
 
@@ -143,11 +145,11 @@ void prvParseCommand( const int8_t * pcUartInput ) {
 	/* Send byte 1 to the xOpCodeQueue */
 		xQueueSend( xOpCodeQueue, &ucOpCode, portMAX_DELAY );
 
-		/* Send byte 2, 3, and 4 to the PWMQueue, received by the PWM controller */
+		/* Send byte 2, 3, 4, and 5 to the PWMQueue, received by the PWM controller */
 		xQueueSend( xPWMQueue, sPWM, portMAX_DELAY );
 
 		/* Send byte 5 to the PlatformController Queue */
-		xQueueSend( xPlatformGPIOQueue, &ucGPIO, portMAX_DELAY );
+		xQueueSend( xPlatformGPIOQueue, &ucBaseGPIO, portMAX_DELAY );
 //	}
 }
 
@@ -164,7 +166,7 @@ void vArmControllerTaskStart( void ) {
 void prvArmController( void *prvParameters ) {
 
 	uint8_t cCommand, cServoPosition[5];
-	int8_t sParameters[3];
+	int8_t sParameters[4];
 
 	( void ) prvParameters;
 
@@ -199,13 +201,15 @@ void prvArmController( void *prvParameters ) {
 			if ( 'r' == cCommand ) {
 				LPC_PWM1->MR1 += 8 * sParameters[0];
 				LPC_PWM1->MR2 += 8 * sParameters[1];
-				LPC_PWM1->MR4 += 8 * sParameters[2];
+				LPC_PWM1->MR3 += 8 * sParameters[2];
+				LPC_PWM1->MR4 += 8 * sParameters[3];
 
 			/* An 'a' command (byte 0x61) sets the servo to an absolute position between 1000 and 2000. */
 			} else if ( 'a' == cCommand ) {
-				LPC_PWM1->MR1 = 1000 + ( 8 * sParameters[0] );
-				LPC_PWM1->MR2 = 1000 + ( 8 * sParameters[1] );
-				LPC_PWM1->MR4 = 1000 + ( 8 * sParameters[2] );
+				LPC_PWM1->MR1 = 1000 + ( 4 * ( uint8_t )sParameters[0] );
+				LPC_PWM1->MR2 = 1000 + ( 4 * ( uint8_t )sParameters[1] );
+				LPC_PWM1->MR3 = 1000 + ( 4 * ( uint8_t )sParameters[2] );
+				LPC_PWM1->MR4 = 1000 + ( 4 * ( uint8_t )sParameters[2] );
 
 			}
 
@@ -220,12 +224,16 @@ void prvArmController( void *prvParameters ) {
 							( 1350 > LPC_PWM1->MR2 ) ? 1350 :
 							LPC_PWM1->MR2;
 
+			LPC_PWM1->MR3 = ( 1500 < LPC_PWM1->MR3 ) ? 1500 :
+							( 1050 > LPC_PWM1->MR3 ) ? 1050 :
+							LPC_PWM1->MR3;
+
 			LPC_PWM1->MR4 = ( 1500 < LPC_PWM1->MR4 ) ? 1500 :
-							( 1050 > LPC_PWM1->MR4 ) ? 1050 :
+							( 1000 > LPC_PWM1->MR4 ) ? 1000 :
 							LPC_PWM1->MR4;
 
 			/* Set the latch enable register to latch MRs 1, 2, and 4 */
-			LPC_PWM1->LER = ( 1 << 1 ) | ( 1 << 2 ) | ( 1 << 4);
+			LPC_PWM1->LER = ( 1 << 1 ) | ( 1 << 2 ) | ( 1 << 3) | ( 1 << 4 );
 
 		/* The 'p' command return the position of the selected servo, in hex. */
 		} else if ('p' == cCommand ) {
@@ -234,7 +242,7 @@ void prvArmController( void *prvParameters ) {
 			else if ( sParameters[1] )
 				itoa( LPC_PWM1->MR2, cServoPosition, 16);
 			else if ( sParameters[2] )
-				itoa( LPC_PWM1->MR4, cServoPosition, 16);
+				itoa( LPC_PWM1->MR3, cServoPosition, 16);
 			else
 				itoa( 0, cServoPosition, 16);
 			if ( FreeRTOS_ioctl( xUART3, ioctlOBTAIN_WRITE_MUTEX, pwmctrl50ms ) == pdPASS ) {
@@ -282,13 +290,13 @@ void prvInitPWM( void ) {
 		/* Upon intialization, set the servos into their default positions. */
 		LPC_PWM1->MR1 = DEFAULT_POS_1;
 		LPC_PWM1->MR2 = DEFAULT_POS_2;
-		// LPC_PWM1->MR3 = DEFAULT_POS_3; not used
+		LPC_PWM1->MR3 = DEFAULT_POS_3;
 		LPC_PWM1->MR4 = DEFAULT_POS_4;
 
 		/* Latch the registers to move the servos. */
-		LPC_PWM1->LER = 0x27;
+		LPC_PWM1->LER = 0x3f;
 
-		/* Reset PWMMR3, and set interrupts on register 5. */
+		/* Reset PWMMR0, and set interrupts on register 5. */
 		LPC_PWM1->MCR = ( 1 << 1 ) | ( 1 << 15 );
 
 		/* Enable the outputs on PWMMR1, PWMMR2, PWMMR3, & PWMMR4. */
